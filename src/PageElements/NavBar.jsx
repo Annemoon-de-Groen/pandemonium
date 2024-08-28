@@ -1,14 +1,15 @@
 import { useNavigate } from 'react-router-dom'
 import '../Stylesheets/NavBar.css'
+import logo from "../Assets/Images/pandemonium_logo.png"
 
 function NavBar(){
     const navigate = useNavigate()
 
+
     return (
-           <>
+           <header>
       <nav className='navigationBar'>
-        <h1 className="logo">Pandemonium</h1>
-        <img id='logo' src="file:///C:/Users/annem/Downloads/pandemonium%20logo/pandemonium%20logo/pandemonium%20logo.svg" alt="Logo"></img>
+        <img id='logo' src={logo} alt="Logo"></img>
         <button onClick={() => navigate('/')}>Home</button>
         <button onClick={() => navigate('/cast')}>Cast</button>
         <button onClick={() => navigate('/galerij')}>Galerij</button>
@@ -16,7 +17,7 @@ function NavBar(){
         <button onClick={() => navigate('/contact')}>Contact</button>
 
       </nav>
-    </>
+    </header>
     )
 }
 

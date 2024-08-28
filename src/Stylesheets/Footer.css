@@ -1,0 +1,24 @@
+.Footer {
+    background-color: #DB9C7B;
+    display: grid;
+    grid-template-columns: 33% calc(50vw - 5%) 33%;
+    text-align: center;
+}
+
+.Footer div {
+}
+
+.footer_link {
+    display: inline;
+}
+
+div.footer_socials {
+    display: inline;
+}
+
+#icon{
+    width: 10%;
+    display: inline;
+    position: relative;
+    align-items: center;
+}
