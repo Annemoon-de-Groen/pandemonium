@@ -1,0 +1,75 @@
+.front {
+    background-image: url("../../src/Assets/Images/frontImage1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: calc(100vh - 200px);
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.frontPandemonium {
+    background-color: #577B57;
+    color: white;
+    padding: 40px;
+    width: max-content;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+#komende_voorstelling_button {
+    position:absolute;
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 24px;
+    font-weight: 700;
+    right: 300px;
+    bottom: 200px;
+    background-color: #D24C4B;
+      scroll-behavior: smooth;
+
+    
+}
+
+.oker {
+    margin-top: 50px;
+    background-color: #D89C7B;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+        vertical-align: middle;
+
+
+}
+
+#oker_image {
+    width: 750px;;
+
+    padding: 50px;
+}
+
+#oker_tekst{
+    padding: 200px 100px;
+      display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+#komende_voorstelling{
+      scroll-behavior: smooth;
+
+        display: grid;
+    grid-template-columns: 50vw 50vw;
+}
+
+#komende_voorstelling_tekst {
+    padding: 200px 100px;
+}
+
+#poster {
+    width: 600px;
+    height: 500px;
+}

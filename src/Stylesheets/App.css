@@ -1,5 +1,14 @@
-.p {
+p {
   font-size: 24px;
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: 500;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 @media (prefers-reduced-motion: no-preference) {
