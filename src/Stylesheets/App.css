@@ -1,3 +1,5 @@
+@media (min-width:1000px)
+{
 p {
   font-size: 24px;
 }
@@ -6,9 +8,27 @@ h1 {
   font-size: 96px;
   font-weight: 500;
 }
+}
+@media (max-width:1000px)
+{
+p {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 500;
+}
+}
+
 
 body {
   overflow-x: hidden;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

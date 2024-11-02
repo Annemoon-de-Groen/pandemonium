@@ -11,9 +11,17 @@ function Footer(){
                 <p>Galerij</p>
                 <p>Contact</p>
             </div>
+            <div>
             <img id='icon' src={icon} alt="Icon"></img>
+
+            </div>
             <div className="footer_socials">
-                <p>Instagram</p>
+                <div>
+                    <a href="https://www.instagram.com/pandemoniumtheater?igsh=Yzljb2hjOGM4ano2" target="_blank">@Pandemoniumtheater</a>
+                </div>
+                <div>
+                    <a href="tel:+31621472515">06 2147 2515</a>
+                </div>
             </div>
         </footer>
     )

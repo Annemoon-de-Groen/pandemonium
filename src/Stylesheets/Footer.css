@@ -1,7 +1,7 @@
 .Footer {
     background-color: #DB9C7B;
     display: grid;
-    grid-template-columns: 33% calc(50vw - 5%) 33%;
+    grid-template-columns: 33% 33% 33%;
     text-align: center;
 }
 
@@ -10,14 +10,16 @@
 
 .footer_link {
     display: inline;
+    line-height: 100%;
 }
 
 div.footer_socials {
     display: inline;
+    line-height: 100%;
 }
 
 #icon{
-    width: 10%;
+    width: 30%;
     display: inline;
     position: relative;
     align-items: center;

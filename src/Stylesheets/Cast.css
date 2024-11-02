@@ -1,0 +1,66 @@
+@media (min-width:1000px){
+.crewList{
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+.category{
+    margin-left: 150px;
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+.person{
+    background: #A9BDA1;
+    width: 433px;
+    height: 500px;
+
+    margin: 50px;
+}
+}
+
+@media (max-width:1000px){
+.crewList{
+    margin-left: 0px;
+    margin-right: 10vw;
+    text-align: center;
+}
+.category{
+    margin-left:10vw;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+.person{
+    background: #A9BDA1;
+    width: 433px;
+    height: 500px;
+
+    margin: 10vw;
+}
+}
+
+
+
+.name{
+    line-height: 7px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.pronouns{
+    color: #577B57;
+    line-height: 5px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.person_picture{
+    width: 433px;
+    height: 306px;
+    overflow: hidden;
+  object-fit: cover;
+}
+
+.functie{
+    line-height: 3px;
+}

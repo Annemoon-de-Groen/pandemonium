@@ -1,22 +1,65 @@
 import { useNavigate } from 'react-router-dom'
 import '../Stylesheets/NavBar.css'
 import logo from "../Assets/Images/pandemonium_logo.png"
+import {BrowserView, MobileView} from 'react-device-detect';
+import { useState } from 'react';
 
 function NavBar(){
     const navigate = useNavigate()
+    const [navVisible, setNavVisible] = useState(false) 
 
 
     return (
-           <header>
-      <nav className='navigationBar'>
-        <img id='logo' src={logo} alt="Logo"></img>
-        <button onClick={() => navigate('/')}>Home</button>
-        <button onClick={() => navigate('/cast')}>Cast</button>
-        <button onClick={() => navigate('/galerij')}>Galerij</button>
-
-        <button onClick={() => navigate('/contact')}>Contact</button>
+    <header>
+      <BrowserView>
+            <nav className='navigationBar'>
+        <div id='navigationBar'>
+          <div id='nav_logo'>
+              <img id='logo' src={logo} alt="Logo" onClick={() => navigate('/')}></img>
+          </div>
+          <div id='nav_text'>
+            <div>
+              <button onClick={() => navigate('/')}>Home</button>
+            </div>
+            <div>
+              <button onClick={() => navigate('/cast')}>Cast</button>
+            </div>
+            <div>
+              <button onClick={() => navigate('/galerij')}>Galerij</button>
+            </div>
+            <div>
+              <button onClick={() => navigate('/contact')}>Contact</button>
+            </div>
+          </div>
+        </div>
 
       </nav>
+      </BrowserView>
+      <MobileView>
+        <div className='navigationBarPhone'>
+          <div id='nav_logo'>
+              <img id='logoPhone' src={logo} alt="Logo" onClick={() => navigate('/')}></img>
+          </div>
+          <div onClick={() => {setNavVisible(!navVisible)}}>
+              <img id="nav_more" src="https://static.thenounproject.com/png/356889-200.png" alt="Nav" />
+          </div>
+        </div>
+        
+        <div className={navVisible? 'hidden': ''}>
+            <div className='nav_button'>
+              <button onClick={() => navigate('/')}>Home</button>
+            </div>
+            <div className='nav_button'>
+              <button onClick={() => navigate('/cast')}>Cast</button>
+            </div>
+            <div className='nav_button'>
+              <button onClick={() => navigate('/galerij')}>Galerij</button>
+            </div>
+            <div className='nav_button'>
+              <button onClick={() => navigate('/contact')}>Contact</button>
+            </div>
+        </div>
+      </MobileView>
     </header>
     )
 }

@@ -4,7 +4,7 @@
             "id": 1,
             "first_name": "Hannelieke",
             "last_name": "Hoogenboom",
-            "pronouns": "zij/haar",
+            "pronouns": "zij/die",
             "category": "cast",
             "bio" : "",
             "functie": [
@@ -28,7 +28,7 @@
         {
             "id": 3,
             "first_name": "Daina",
-            "last_name": "",
+            "last_name": "Verboekend",
             "pronouns": "die/hun",
             "category": "cast",
             "bio" : "",
@@ -39,7 +39,7 @@
         {
             "id": 4,
             "first_name": "Luca",
-            "last_name": "",
+            "last_name": "de Vlieger",
             "pronouns": "hij/hem",
             "category": "cast",
             "bio" : "",
@@ -51,7 +51,7 @@
                 {
             "id": 5,
             "first_name": "Selda",
-            "last_name": "",
+            "last_name": "Kleijn",
             "pronouns": "zij/haar",
             "category": "cast",
             "bio" : "",
@@ -67,13 +67,14 @@
             "category": "cast",
             "bio" : "",
             "functie": [
-                "cast"
+                "cast",
+                "choreograaf"
             ]
         },
                 {
             "id": 7,
             "first_name": "Clara",
-            "last_name": "",
+            "last_name": "Huydecoper",
             "pronouns": "zij/haar",
             "category": "cast",
             "bio" : "",
@@ -120,7 +121,7 @@
                 {
             "id": 11,
             "first_name": "Laura",
-            "last_name": "",
+            "last_name": "Flesch",
             "pronouns": "zij/haar",
             "category": "cast",
             "bio" : "",
@@ -137,17 +138,6 @@
             "bio" : "",
             "functie": [
                 "cast"
-            ]
-        },
-                {
-            "id": 13,
-            "first_name": "Robin",
-            "last_name": "",
-            "pronouns": "hij/hem",
-            "category": "band",
-            "bio" : "",
-            "functie": [
-                "pianist"
             ]
         },
                 {

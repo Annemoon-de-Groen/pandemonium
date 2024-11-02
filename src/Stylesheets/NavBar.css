@@ -1,7 +1,7 @@
 .navigationBar {
     background-color: #DB9C7B;
     padding: 0%;
-    
+    padding-left: 150px;
 
 }
 
@@ -10,6 +10,11 @@
     height: 200px;
     display: inline;
     float:left
+}
+
+#nav_text {
+    display: flex;
+    flex-direction: row;
 }
 
 .navigationBar button{
@@ -33,3 +38,25 @@
 .navigationBar button.selected{
     color:#577B57
 }
+
+.navigationBarPhone {
+    background-color:#DB9C7B;
+    height: 15vh;
+    width: 100vw;
+} 
+
+#logoPhone {
+    position: relative;
+    height: 15vh;
+    display: inline;
+    float:left
+}
+
+#nav_more {
+    height: 10vh;
+}
+
+.nav_button button {
+    background-color: #DB9C7B;
+    width: 100vw;
+} 

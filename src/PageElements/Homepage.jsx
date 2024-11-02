@@ -24,6 +24,44 @@ function Homepage(){
             </div>
             <img id='poster' src={poster} alt="Poster van de Spelling Bee, moet vervangen worden door een poster van de huidige voorstelling (Lang en Gelukkig)"></img>
         </div>
+        <div id='information'>
+            <div className='information_block'>
+                <div className='information_title'>
+                    <h4>Datum</h4>
+                </div>
+                <div className='information_info'>
+                    <div>
+                        <p>Zaterdag 8 februari</p>
+                        <p>20:00</p>
+                    </div>
+                    <div>
+                        <p>Zondag 9 februari</p>
+                        <p>20:00</p>
+                    </div>
+                </div>
+
+            </div>
+            <div className='information_block'>
+                <div>
+                <div className='information_title'> 
+                    <h4>Locatie</h4>
+                </div>
+                <div className='information_info'>
+                        <p>Cultuurcampus Vleuten
+                        </p>
+                        <p>Burchtpoort 5, 3452 MD Utrecht</p>
+                        <p>Bushalte: Vleuten, Vleuterweide-Centrum</p>
+                        <div id='mapsBorder'>
+                            <a id='mapsLocation' href="https://www.google.com/maps/place/CultuurCampus+-+kunstencentrum+en+theater/@52.0935338,5.002394,15z/data=!4m6!3m5!1s0x47c6700dd8d3baf5:0x123be006b344a8c6!8m2!3d52.0938699!4d5.0110025!16s%2Fg%2F11j2yqn33w?entry=ttu" target="_blank">Open in Maps           
+                            <img id='mapsLogo' src='https://logodownload.org/wp-content/uploads/2018/01/google-maps-logo-1-1-768x1101.png'></img>
+                        </a>
+                    </div>
+                </div> 
+                </div>
+
+
+            </div>
+        </div>
         </>
     )
 }
