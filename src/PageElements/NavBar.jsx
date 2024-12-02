@@ -8,6 +8,10 @@ function NavBar(){
     const navigate = useNavigate()
     const [navVisible, setNavVisible] = useState(false) 
 
+    function clickNavigate(link){
+      setNavVisible(false)
+      navigate(link)
+    }
 
     return (
     <header>
@@ -45,24 +49,25 @@ function NavBar(){
           </div>
         </div>
         
-        <div className={navVisible? 'hidden': ''}>
+        <div className={navVisible? '': 'hidden'}>
             <div className='nav_button'>
-              <button onClick={() => navigate('/')}>Home</button>
+              <button onClick={() => clickNavigate('/')}>Home</button>
             </div>
             <div className='nav_button'>
-              <button onClick={() => navigate('/cast')}>Cast</button>
+              <button onClick={() => clickNavigate('/cast')}>Cast</button>
             </div>
             <div className='nav_button'>
-              <button onClick={() => navigate('/galerij')}>Galerij</button>
+              <button onClick={() => clickNavigate('/galerij')}>Galerij</button>
             </div>
             <div className='nav_button'>
-              <button onClick={() => navigate('/contact')}>Contact</button>
+              <button onClick={() => clickNavigate('/contact')}>Contact</button>
             </div>
         </div>
       </MobileView>
     </header>
     )
 }
+
 
 
 // <img id='frontPageImage' src="https://github.com/Annemoon-de-Groen/the-25th-annual-putnam-county-spelling-bee/blob/main/src/assets/images/Poster.jpeg?raw=true"></img>

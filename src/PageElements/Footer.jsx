@@ -1,16 +1,20 @@
+import { useNavigate } from "react-router-dom"
 import icon from "../Assets/Images/pandemonium_icon.png"
 import '../Stylesheets/Footer.css'
-
+import {BrowserView, MobileView} from 'react-device-detect';
 
 function Footer(){
+    const navigate = useNavigate()
     return (
         <footer className="Footer">
+            <BrowserView>
             <div className="footer_link">
-                <p>Home</p>
-                <p>Cast</p>
-                <p>Galerij</p>
-                <p>Contact</p>
+                <p onClick={() => navigate('/')}>Home</p>
+                <p onClick={() => navigate('/cast')}>Cast</p>
+                <p onClick={() => navigate('/galerij')}>Galerij</p>
+                <p onClick={() => navigate('/contact')}>Contact</p>
             </div>
+            </BrowserView>
             <div>
             <img id='icon' src={icon} alt="Icon"></img>
 

@@ -1,9 +1,35 @@
-.Footer {
+@media (max-width:1000px){
+    #icon{
+        width: 30%;
+        display: inline;
+        position: relative;
+        align-items: center;
+    }
+
+    .Footer {
+    background-color: #DB9C7B;
+    text-align: center;
+    width: 100vw;
+}
+}
+
+@media (min-width:1000px){
+    #icon{
+        width: 30%;
+        display: inline;
+        position: relative;
+        align-items: center;
+    }
+
+    .Footer {
     background-color: #DB9C7B;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     text-align: center;
 }
+}
+
+
 
 .Footer div {
 }
@@ -16,11 +42,4 @@
 div.footer_socials {
     display: inline;
     line-height: 100%;
-}
-
-#icon{
-    width: 30%;
-    display: inline;
-    position: relative;
-    align-items: center;
 }

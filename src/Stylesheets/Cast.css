@@ -18,6 +18,16 @@
 
     margin: 50px;
 }
+.person_picture{
+    width: 433px;
+    height: 306px;
+    overflow: hidden;
+  object-fit: cover;
+}
+.name {
+    line-height: 7px;
+
+}
 }
 
 @media (max-width:1000px){
@@ -33,20 +43,28 @@
 }
 .person{
     background: #A9BDA1;
-    width: 433px;
-    height: 500px;
-
+    width: 100vw;
+    height: 306px;
     margin: 10vw;
+    display:grid;
+    grid-template-columns: auto auto;
 }
+.person_picture{
+    width: 50vw;
+    height: 306px;
+    overflow: hidden;
+  object-fit: cover;
 }
 
+
+}
 
 
 .name{
-    line-height: 7px;
     font-size: 32px;
     font-weight: 700;
 }
+
 .pronouns{
     color: #577B57;
     line-height: 5px;
@@ -54,12 +72,6 @@
     font-size: 20px;
 }
 
-.person_picture{
-    width: 433px;
-    height: 306px;
-    overflow: hidden;
-  object-fit: cover;
-}
 
 .functie{
     line-height: 3px;

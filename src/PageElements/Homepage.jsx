@@ -20,7 +20,7 @@ function Homepage(){
                 <h3>Aankomende voorstellingen</h3>
                 <h4>Lang en gelukkig</h4>
                 <p>Voorstelling over Assepoester sprookje die helemaal door de war raakt Bla bladie bla een heleboel gepraat enzo hier is dus een hele blurb van de voorstelling haha blurb is een leuk woord oke dit ziet er nu al wel een beetje uit als een tekst die lang genoeg is zolang Hannelieke nog niet iets heeft geschreven wat voldoende is. </p>
-                <button>Koop kaartje</button> 
+                <button id='koop_kaartje_button' className='button'>Koop kaartje</button> 
             </div>
             <img id='poster' src={poster} alt="Poster van de Spelling Bee, moet vervangen worden door een poster van de huidige voorstelling (Lang en Gelukkig)"></img>
         </div>
