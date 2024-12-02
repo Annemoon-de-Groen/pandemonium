@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pandemonium/static/css/main.c22763e7.css",
+    "main.js": "/pandemonium/static/js/main.6350909f.js",
+    "static/js/453.6b8c4f60.chunk.js": "/pandemonium/static/js/453.6b8c4f60.chunk.js",
+    "static/media/poster_spellingbee.jpg": "/pandemonium/static/media/poster_spellingbee.a9104c83565152e7094c.jpg",
+    "static/media/frontImageSmall.jpg": "/pandemonium/static/media/frontImageSmall.15bf4bdb4aae6c93769a.jpg",
+    "static/media/pandemonium_logo.png": "/pandemonium/static/media/pandemonium_logo.7c3258697ec87dddea5c.png",
+    "static/media/frontImage1.jpg": "/pandemonium/static/media/frontImage1.224feece0134c41365e1.jpg",
+    "static/media/pandemonium_icon.png": "/pandemonium/static/media/pandemonium_icon.e9000f738a8843978ae8.png",
+    "static/media/logo.svg": "/pandemonium/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/pandemonium/index.html",
+    "main.c22763e7.css.map": "/pandemonium/static/css/main.c22763e7.css.map",
+    "main.6350909f.js.map": "/pandemonium/static/js/main.6350909f.js.map",
+    "453.6b8c4f60.chunk.js.map": "/pandemonium/static/js/453.6b8c4f60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c22763e7.css",
+    "static/js/main.6350909f.js"
+  ]
+}
