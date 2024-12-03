@@ -43,3 +43,8 @@ div.footer_socials {
     display: inline;
     line-height: 100%;
 }
+
+.footer_socials a {
+    text-decoration: none;
+    color: black;
+}

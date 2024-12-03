@@ -10,7 +10,7 @@ function GalerijPagina(){
     return (
         <div>
             <GreenThingy text={item.thumbnail.naam} format={imageList[0]} /> 
-            <div className="centered w-1832">
+            <div className="centered galerij_page">
                 <div className="galerij_page_top">
                     <div>
                         <p>{item.page.tekst}</p>
@@ -23,7 +23,7 @@ function GalerijPagina(){
                 <div>
                     <div className="">
                         {imageList.map((image, index) => (
-                            <img key={index} src={image} alt={`image-${index}`} className="h-400 m-5" />
+                            <img key={index} src={image} alt={`image-${index}`} className="galerij_photo" />
                         ))}
                     </div> 
                 </div>

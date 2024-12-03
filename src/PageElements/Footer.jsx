@@ -21,10 +21,14 @@ function Footer(){
             </div>
             <div className="footer_socials">
                 <div>
+                    <p>
                     <a href="https://www.instagram.com/pandemoniumtheater?igsh=Yzljb2hjOGM4ano2" target="_blank">@Pandemoniumtheater</a>
+                    </p>
                 </div>
                 <div>
+                    <p>
                     <a href="tel:+31621472515">06 2147 2515</a>
+                    </p>
                 </div>
             </div>
         </footer>

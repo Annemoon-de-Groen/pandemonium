@@ -11,6 +11,22 @@
     object-fit: cover;
 }
 
+
+
+.galerij_page_top {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@media (min-width:1000px){
+.galerij_page {
+    width: 94vw;
+}
+
+.galerij_photo {
+    margin: 0.2vw;
+    height: 20.6vw;
+}
 .galerij_list {
     display: grid;
     grid-template-columns: 30vw 30vw 30vw;
@@ -18,8 +34,19 @@
     margin-right: 100px;
     text-align: center;
 }
+}
 
-.galerij_page_top {
+@media (max-width:1000px){
+.galerij_page {
+    width: 94vw;
+}
+
+.galerij_photo {
+    margin: 0.2vw;
+    height: 62vw;
+}
+.galerij_list {
     display: grid;
-    grid-template-columns: 50% 50%;
+    text-align: center;
+}
 }
