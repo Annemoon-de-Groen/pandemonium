@@ -8,6 +8,7 @@
 .galerij_afbeelding {
     width: 433px;
     height: 350px;
+    object-fit: cover;
 }
 
 .galerij_list {

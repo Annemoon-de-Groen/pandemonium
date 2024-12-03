@@ -5,7 +5,7 @@ import '../Stylesheets/Galerij.css'
 
 
 function Galerij(){
-    return (<><GreenThingy text='Galerij' format='https://www.beautifulballad.org/wp-content/uploads/2020/01/LMS-S8_Group_MB0083V4-scaled.jpg'/>
+    return (<><GreenThingy text='Galerij' format='../Assets/Images/cast_image.jpg'/>
     <div className="galerij_list">
     {
         history.history.map(x => {
@@ -13,6 +13,7 @@ function Galerij(){
         })
     }
     </div>
+
 
 </>)
 }

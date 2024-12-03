@@ -5,7 +5,7 @@ import GreenThingy from './GreenThingy'
 
 function Cast() {
     return (<>
-    <GreenThingy text='Hier is een prachtige tekst over wie wij allemaal zijn' format='https://www.beautifulballad.org/wp-content/uploads/2020/01/LMS-S8_Group_MB0083V4-scaled.jpg'/>
+    <GreenThingy text='Hier is een prachtige tekst over wie wij allemaal zijn' format='../Assets/Images/cast_image.jpg'/>
     {display('Cast')}
     {display('Band')}
     {display('Kostuum')}
