@@ -1,26 +1,28 @@
 @media (min-width:1000px){
 .crewList{
     display: grid;
-    grid-template-columns: 30vw 30vw 30vw;
-    margin-left: 100px;
-    margin-right: 100px;
+    grid-template-columns: 25% 25% 25% 25%;
     text-align: center;
 }
+
+.cast_page{
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
 .category{
-    margin-left: 150px;
+
     font-size: 48px;
     margin-bottom: 0px;
 }
 .person{
     background: #A9BDA1;
-    width: 433px;
-    height: 500px;
-
-    margin: 50px;
+    width: 20vw;
+    height: 40vw;
 }
 .person_picture{
-    width: 433px;
-    height: 306px;
+    width: 20vw;
+    height: 30vw;
     overflow: hidden;
   object-fit: cover;
 }

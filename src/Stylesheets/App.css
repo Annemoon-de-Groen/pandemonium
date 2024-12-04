@@ -31,6 +31,12 @@ body {
   height: 0px;
 }
 
+.page {
+  position: relative;
+  top:15vh;
+  scroll-behavior: smooth;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

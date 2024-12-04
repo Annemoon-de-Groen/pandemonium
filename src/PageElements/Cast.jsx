@@ -6,9 +6,11 @@ import GreenThingy from './GreenThingy'
 function Cast() {
     return (<>
     <GreenThingy text='Hier is een prachtige tekst over wie wij allemaal zijn' format='../Assets/Images/cast_image.jpg'/>
+    <div className='cast_page'>
     {display('Cast')}
     {display('Band')}
     {display('Kostuum')}
+    </div>
     </>
     )
 }

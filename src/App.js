@@ -14,6 +14,8 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
+      <div className="page">
+
 
           <Routes>
             <Route path="/" element={<Homepage/>} />
@@ -24,7 +26,9 @@ function App() {
             <Route path='/contact' element={<Contact/>} />
             <Route path="*" element={<h1>Not found</h1>} />
           </Routes>
+        
         <Footer/>
+        </div>
     </div>
   );
 }

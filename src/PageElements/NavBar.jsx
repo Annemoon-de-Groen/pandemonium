@@ -49,7 +49,7 @@ function NavBar(){
           </div>
         </div>
         
-        <div className={navVisible? '': 'hidden'}>
+        <div className={navVisible? 'button_list': 'hidden button_list'}>
             <div className='nav_button'>
               <button onClick={() => clickNavigate('/')}>Home</button>
             </div>
