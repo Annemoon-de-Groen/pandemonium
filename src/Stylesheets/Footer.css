@@ -41,8 +41,8 @@
 }
 
 div.footer_socials {
-    display: inline;
     line-height: 100%;
+    padding-bottom: 10px;
 }
 
 .footer_socials a {

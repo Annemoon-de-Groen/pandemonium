@@ -22,16 +22,16 @@ function NavBar(){
               <img id='logo' src={logo} alt="Logo" onClick={() => navigate('/')}></img>
           </div>
           <div id='nav_text'>
-            <div>
+            <div className='nav_button_pc'>
               <button onClick={() => navigate('/')}>Home</button>
             </div>
-            <div>
+            <div className='nav_button_pc'>
               <button onClick={() => navigate('/cast')}>Cast</button>
             </div>
-            <div>
+            <div className='nav_button_pc'>
               <button onClick={() => navigate('/galerij')}>Galerij</button>
             </div>
-            <div>
+            <div className='nav_button_pc'>
               <button onClick={() => navigate('/contact')}>Contact</button>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
 import history from '../Assets/Data/history.json'
 import GreenThingy from "./GreenThingy"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 function GalerijPagina(){
     const {voorstelling} = useParams()
@@ -10,6 +10,10 @@ function GalerijPagina(){
     const imageList = images.keys().map(image => images(image));
     const [zoomedImage, setZoomedImage] = useState(null)
 
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+        }, [])
     return (
         <div>
             <GreenThingy text={item.thumbnail.naam} format={imageList[0]} /> 
@@ -19,7 +23,7 @@ function GalerijPagina(){
                         <p>{item.page.tekst}</p>
                     </div>
                     <div>
-                        <p>Regisseur</p>
+                        <p className="bold">Regisseur: </p>
                         <p>{item.page.regisseur}</p>
                     </div>
                 </div>

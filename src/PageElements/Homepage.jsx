@@ -1,10 +1,12 @@
 import '../Stylesheets/Homepage.css'
 import image from '../Assets/Images/frontImageSmall.jpg'
 import poster from '../Assets/Images/poster_spellingbee.jpg'
-import { useNavigate } from 'react-router-dom'
+import { useEffect } from 'react'
 
 function Homepage(){
-    const navigate = useNavigate()
+    useEffect(() => {
+        window.scrollTo(0, 0)
+        }, [])
     return(
         <>
         <div className="front">
@@ -20,7 +22,7 @@ function Homepage(){
                 <h3>Aankomende voorstellingen</h3>
                 <h4>Lang en gelukkig</h4>
                 <p>Voorstelling over Assepoester sprookje die helemaal door de war raakt Bla bladie bla een heleboel gepraat enzo hier is dus een hele blurb van de voorstelling haha blurb is een leuk woord oke dit ziet er nu al wel een beetje uit als een tekst die lang genoeg is zolang Hannelieke nog niet iets heeft geschreven wat voldoende is. </p>
-                <button id='koop_kaartje_button' className='button'>Koop kaartje</button> 
+                <button id='koop_kaartje_button' className='button'><span>Koop kaartje</span></button> 
             </div>
             <img id='poster' src={poster} alt="Poster van de Spelling Bee, moet vervangen worden door een poster van de huidige voorstelling (Lang en Gelukkig)"></img>
         </div>
@@ -52,9 +54,11 @@ function Homepage(){
                         <p>Burchtpoort 5, 3452 MD Utrecht</p>
                         <p>Bushalte: Vleuten, Vleuterweide-Centrum</p>
                         <div id='mapsBorder'>
-                            <a id='mapsLocation' href="https://www.google.com/maps/place/CultuurCampus+-+kunstencentrum+en+theater/@52.0935338,5.002394,15z/data=!4m6!3m5!1s0x47c6700dd8d3baf5:0x123be006b344a8c6!8m2!3d52.0938699!4d5.0110025!16s%2Fg%2F11j2yqn33w?entry=ttu" target="_blank">Open in Maps           
+                            <button id='mapsLocation'>
+                            <a  href="https://www.google.com/maps/place/CultuurCampus+-+kunstencentrum+en+theater/@52.0935338,5.002394,15z/data=!4m6!3m5!1s0x47c6700dd8d3baf5:0x123be006b344a8c6!8m2!3d52.0938699!4d5.0110025!16s%2Fg%2F11j2yqn33w?entry=ttu" target="_blank">Open in Maps           
                             <img id='mapsLogo' src='https://logodownload.org/wp-content/uploads/2018/01/google-maps-logo-1-1-768x1101.png'></img>
                         </a>
+                            </button>
                     </div>
                 </div> 
                 </div>
