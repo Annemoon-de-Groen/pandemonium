@@ -4,28 +4,33 @@ html {
 
 @media (min-width:1000px) {
 .front {
-    background-image: url("../../src/Assets/Images/frontImage1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 15vh);
     margin: 0px;
-    display: flex;
-    justify-content: center;
+
     position: relative;
-    
 }
 
+
+
+
+
+
+
 .frontPandemonium {
-    background-color: #577B57;
-    color: white;
-    padding: 40px;
-    width: max-content;
-    border-radius: 20px;
-    height: fit-content;
+        background-color: #577B57;
+        color: #EEC8A3;
+        padding: 40px;
+        width: max-content;
+        border-radius: 10px;
+        height: fit-content;
+        box-shadow: 5px 4px 8px 0px #3e563e;
 }
 
 #komende_voorstelling_button {
+    visibility: hidden;
     position:absolute;
     width: 250px;
     height: max-content;
@@ -40,10 +45,7 @@ html {
     color:black;
     text-decoration: none;
     text-align: center;
-    padding: 20px;
-
-
-    
+    padding: 20px;    
 }
 
 .oker {
@@ -71,12 +73,11 @@ html {
 }
 
 #komende_voorstelling{
-scroll-behavior: smooth;
-        display: grid
-;
-        grid-template-columns: 42vw 42vw;
-        margin: auto 6vw;
-        column-gap: 4vw;
+    scroll-behavior: smooth;
+    display: grid;
+    grid-template-columns: 42vw 42vw;
+    margin: auto 6vw;
+    column-gap: 4vw;
 }
 
 #komende_voorstelling_tekst {
@@ -119,6 +120,7 @@ scroll-behavior: smooth;
 
 @media (max-width:1000px){
 #komende_voorstelling_button{
+    visibility: hidden;
         position: absolute;
         bottom: 10px;
         right: 10vw;
@@ -144,14 +146,13 @@ scroll-behavior: smooth;
     width: 100vw;
     height: 40vh;
     margin: 0px;
-    display: flex;
-    justify-content: center;
+
     
 }
 
 .frontPandemonium {
 background-color: #577b57c9;
-        color: white;
+        color: #EEC8A3;
         /* border: 5px solid #577b57; */
         padding: 5vw;
         width: max-content;
@@ -295,4 +296,55 @@ background-color: #D89C7B;
 #koop_kaartje_button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+
+.front_image_1 {
+    background-image:  url("../../src/Assets/Images/Front/1.JPG");
+}
+
+.front_image_2 {
+    background-image:  url("../../src/Assets/Images/Front/2.JPG");
+}
+
+.front_image_3 {
+    background-image:  url("../../src/Assets/Images/Front/3.JPG");
+}
+
+.front_image_4 {
+    background-image:  url("../../src/Assets/Images/Front/4.JPG");
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #EEC8A3;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #577b57da;
+}
+
+.front_hero {
+    display: flex;
+    justify-content: center;
 }

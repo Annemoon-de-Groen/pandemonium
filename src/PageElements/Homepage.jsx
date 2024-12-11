@@ -1,27 +1,50 @@
 import '../Stylesheets/Homepage.css'
 import image from '../Assets/Images/frontImageSmall.jpg'
 import poster from '../Assets/Images/poster_spellingbee.jpg'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
+
+const backgroundCount = 4
 
 function Homepage(){
     useEffect(() => {
         window.scrollTo(0, 0)
         }, [])
+    const [imgClass, setImgClass] = useState(2)
+    function plusSlides(direction){
+        if (imgClass <= 1 && direction === -1) {
+            setImgClass(backgroundCount) 
+            return
+        }
+        if (imgClass >= backgroundCount && direction === 1) {
+            setImgClass(1)
+            return
+        }
+        setImgClass((imgClass + direction))
+        console.log(imgClass)
+        
+    }
     return(
         <>
-        <div className="front">
-            <h1 className='frontPandemonium'>Pandemonium</h1>
-            <a className='button' id='komende_voorstelling_button' href='#komende_voorstelling'>Bekijk komende voorstellingen</a>
+        <div className={`front front_image_${imgClass}`}>
+            <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
+            <a className="next" onClick={() => plusSlides(1)}>&#10095;</a>
+            <div className='front_hero'>
+                <h1 className='frontPandemonium'>Pandemonium</h1>
+                <a className='button' id='komende_voorstelling_button' href='#komende_voorstelling'>Bekijk komende voorstellingen</a>
+            </div>
         </div>
         <div className='oker'>
-            <p id='oker_tekst'>Pandemonium is een musicalgroep door jongeren opgericht, die muscials spelen met acteren en zingen en dansen enzo. Dit is een mooi tekstje over Pandemonium. Bla bla bla. Dit mag Hannelieke lekker een keer schrijven dit is niet mijn taak.</p>
-            <img id='oker_image' src={image} alt="Afbeelding van Spelling Bee met Olive (Died)e en Barfée (Liza)"></img>
+            <div id='oker_tekst'>
+            <p >Pandemonium is een theatergezelschap dat bestaat sinds 2023. Wij maken muziektheater voorstellingen die volledig gemaakt en geproduceerd zijn door jongeren. Het gezelschap bestaat onder andere uit acteurs, muzikanten, kostuum en decor crew en meer. </p>
+            <p>Wij nodige je van harte uit bij onze eerst volgende voorstelling, kijk hier onder voor informatie en koop snel je kaarten!</p>
+            </div>
+        <img id='oker_image' src={image} alt="Afbeelding van Spelling Bee met Olive (Died)e en Barfée (Liza)"></img>
         </div>
         <div id='komende_voorstelling'>
             <div id='komende_voorstelling_tekst'>
                 <h3>Aankomende voorstellingen</h3>
                 <h4>Lang en gelukkig</h4>
-                <p>Voorstelling over Assepoester sprookje die helemaal door de war raakt Bla bladie bla een heleboel gepraat enzo hier is dus een hele blurb van de voorstelling haha blurb is een leuk woord oke dit ziet er nu al wel een beetje uit als een tekst die lang genoeg is zolang Hannelieke nog niet iets heeft geschreven wat voldoende is. </p>
+                <p>Wat gebeurt er als een vergeetachtige fee het sprookje van Assepoester, Roodkapje en een prins verteld? Daar kom je achter in de sprookjesvoorstelling Lang en Gelukkig! Deze voorstelling is een verzameling van klassieke sprookjes met een alternatieve draai en een knipoog naar de actualiteit. Lang en Gelukkig is voor het hele gezin, dus iedereen is welkom. Koop gauw je kaarten voor een van de voorstelling dagen! </p>
                 <button id='koop_kaartje_button' className='button'><span>Koop kaartje</span></button> 
             </div>
             <img id='poster' src={poster} alt="Poster van de Spelling Bee, moet vervangen worden door een poster van de huidige voorstelling (Lang en Gelukkig)"></img>
