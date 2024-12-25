@@ -1,7 +1,6 @@
 import '../Stylesheets/GreenThingy.css'
 
 function GreenThingy({text, format}){
-    console.log(format)
     const image = require('../Assets/Images/cast_image.jpg');
     
     return (<div className='green'>

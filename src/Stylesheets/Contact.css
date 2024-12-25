@@ -50,7 +50,7 @@ background-color: #D89C7B;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-.submit:hover {
+.submit:hover:enabled {
     background-color: #D24C4B;
 }
 

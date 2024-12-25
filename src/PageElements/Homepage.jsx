@@ -3,9 +3,13 @@ import image from '../Assets/Images/frontImageSmall.jpg'
 import poster from '../Assets/Images/poster_spellingbee.jpg'
 import { useEffect, useState } from 'react'
 
-const backgroundCount = 4
+const backgroundCount = 3
+
+//TODO::: Voeg URL toe naar externe ticketpagina wanneer isDisabled op false wordt gezet
+const isDisabled = true;
 
 function Homepage(){
+    
     useEffect(() => {
         window.scrollTo(0, 0)
         }, [])
@@ -37,15 +41,23 @@ function Homepage(){
             <div id='oker_tekst'>
             <p >Pandemonium is een theatergezelschap dat bestaat sinds 2023. Wij maken muziektheater voorstellingen die volledig gemaakt en geproduceerd zijn door jongeren. Het gezelschap bestaat onder andere uit acteurs, muzikanten, kostuum en decor crew en meer. </p>
             <p>Wij nodige je van harte uit bij onze eerst volgende voorstelling, kijk hier onder voor informatie en koop snel je kaarten!</p>
-            </div>
-        <img id='oker_image' src={image} alt="Afbeelding van Spelling Bee met Olive (Died)e en Barfée (Liza)"></img>
+        </div>
+        <div>
+            <img id='oker_image' src={image} alt="Afbeelding van Spelling Bee met Olive (Died)e en Barfée (Liza)"></img>
+
+        </div>
         </div>
         <div id='komende_voorstelling'>
             <div id='komende_voorstelling_tekst'>
                 <h3>Aankomende voorstellingen</h3>
                 <h4>Lang en gelukkig</h4>
                 <p>Wat gebeurt er als een vergeetachtige fee het sprookje van Assepoester, Roodkapje en een prins verteld? Daar kom je achter in de sprookjesvoorstelling Lang en Gelukkig! Deze voorstelling is een verzameling van klassieke sprookjes met een alternatieve draai en een knipoog naar de actualiteit. Lang en Gelukkig is voor het hele gezin, dus iedereen is welkom. Koop gauw je kaarten voor een van de voorstelling dagen! </p>
-                <button id='koop_kaartje_button' className='button'><span>Koop kaartje</span></button> 
+                {
+                    isDisabled ?
+                   <p className='koop_kaartje_tekst'>Kaartjes binnenkort beschikbaar</p>:
+                <button disabled={false} id='koop_kaartje_button' className='button'><span>Koop kaartje</span></button> 
+
+                }
             </div>
             <img id='poster' src={poster} alt="Poster van de Spelling Bee, moet vervangen worden door een poster van de huidige voorstelling (Lang en Gelukkig)"></img>
         </div>
