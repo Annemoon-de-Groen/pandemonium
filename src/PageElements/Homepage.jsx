@@ -51,7 +51,7 @@ function Homepage(){
             <div id='komende_voorstelling_tekst'>
                 <h3>Aankomende voorstellingen</h3>
                 <h4>Lang en gelukkig</h4>
-                <p>Wat gebeurt er als een vergeetachtige fee het sprookje van Assepoester, Roodkapje en een prins verteld? Daar kom je achter in de sprookjesvoorstelling Lang en Gelukkig! Deze voorstelling is een verzameling van klassieke sprookjes met een alternatieve draai en een knipoog naar de actualiteit. Lang en Gelukkig is voor het hele gezin, dus iedereen is welkom. Koop gauw je kaarten voor een van de voorstelling dagen! </p>
+                <p>Wat gebeurt er als een vergeetachtige fee het sprookje van Assepoester, Roodkapje en een prins vertelt? Daar kom je achter in de sprookjesvoorstelling Lang en Gelukkig! Deze voorstelling is een verzameling van klassieke sprookjes met een alternatieve draai en een knipoog naar de actualiteit. Lang en Gelukkig is voor het hele gezin, dus iedereen is welkom. Koop gauw je kaarten voor een van de voorstellingsdagen! </p>
                 {
                     isDisabled ?
                    <p className='koop_kaartje_tekst'>Kaartjes binnenkort beschikbaar</p>:
