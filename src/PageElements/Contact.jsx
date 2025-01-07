@@ -74,7 +74,6 @@ function Contact(){
                 <h3>Contactgegevens</h3>
                 <div>
                     <p>@Pandemoniumtheater</p>
-                    <p>06-21472515</p>
                     <p>theaterpandemonium@gmail.com</p>
                 </div>
                 <div>

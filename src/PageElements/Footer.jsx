@@ -27,11 +27,6 @@ function Footer(){
                 </div>
                 <div>
                     <p>
-                    <a href="tel:+31621472515">06 2147 2515</a>
-                    </p>
-                </div>
-                <div>
-                    <p>
                     <a href="mailto:theaterpandemonium@gmail.com">theaterpandemonium@gmail.com</a>
                     </p>
                 </div>
