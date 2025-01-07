@@ -9,7 +9,7 @@ html {
     width: 100vw;
     height: calc(100vh - 15vh);
     margin: 0px;
-
+    background-position: 50% 40%;
     position: relative;
 }
 
@@ -185,6 +185,7 @@ background-color: #577b57c9;
 #poster {
     width: 100%;
     height: 100%;
+    margin-top: 6vw
 }
 
 #komende_voorstelling{
@@ -227,7 +228,7 @@ background-color: #577b57c9;
 }
 
 #mapsLocation {
-    background-color: #EEC8A3;
+    background-color: #A9BDA1;
     padding: 10px;
     border-radius: 10px;
     border: 1px black solid;
@@ -253,6 +254,12 @@ width: 25px;
     width: fit-content;
     margin: auto;
 }
+
+#mapsLocation:hover{
+    background-color: #577B57;
+      transition: 0.5s;
+}
+
 
 
 #koop_kaartje_button{

@@ -14,15 +14,18 @@
 
 
 
-.galerij_page_top {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
+
 
 @media (min-width:1000px){
 .galerij_page {
     width: 88vw;
     margin: auto 6vw;
+}
+.galerij_page_top {
+display: grid
+;
+    grid-template-columns: 55% 50%;
+    column-gap: 5%;
 }
 
 .galerij_photo {
@@ -43,6 +46,9 @@
     width: 94vw;
 }
 
+.galerij_page_top {
+  text-align: center;
+}
 .galerij_photo {
     margin: 0.2vw;
     height: 62vw;

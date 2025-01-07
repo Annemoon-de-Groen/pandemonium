@@ -1,12 +1,12 @@
 import '../Stylesheets/Homepage.css'
 import image from '../Assets/Images/frontImageSmall.jpg'
-import poster from '../Assets/Images/poster_spellingbee.jpg'
+import poster from '../Assets/Images/Poster.jpg'
 import { useEffect, useState } from 'react'
 
 const backgroundCount = 3
 
 //TODO::: Voeg URL toe naar externe ticketpagina wanneer isDisabled op false wordt gezet
-const isDisabled = true;
+const isDisabled = false;
 
 function Homepage(){
     
@@ -55,11 +55,14 @@ function Homepage(){
                 {
                     isDisabled ?
                    <p className='koop_kaartje_tekst'>Kaartjes binnenkort beschikbaar</p>:
-                <button disabled={false} id='koop_kaartje_button' className='button'><span>Koop kaartje</span></button> 
+                <a href='https://www.ticketkantoor.nl/shop/langengelukkig' target='_blank'>
+                   <button disabled={false} id='koop_kaartje_button' className='button'><span>Koop kaartje</span></button> 
+
+                </a>
 
                 }
             </div>
-            <img id='poster' src={poster} alt="Poster van de Spelling Bee, moet vervangen worden door een poster van de huidige voorstelling (Lang en Gelukkig)"></img>
+            <img id='poster' src={poster} alt="Poster van Lang en Gelukkig"></img>
         </div>
         <div id='information'>
             <div className='information_block'>
@@ -69,11 +72,11 @@ function Homepage(){
                 <div className='information_info'>
                     <div>
                         <p>Zaterdag 8 februari</p>
-                        <p>20:00</p>
+                        <p>19:30</p>
                     </div>
                     <div>
                         <p>Zondag 9 februari</p>
-                        <p>20:00</p>
+                        <p>19:30</p>
                     </div>
                 </div>
 

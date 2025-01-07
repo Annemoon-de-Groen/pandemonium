@@ -1,7 +1,10 @@
+import { useParams } from 'react-router-dom';
 import '../Stylesheets/GreenThingy.css'
 
 function GreenThingy({text, format}){
-    const image = require('../Assets/Images/cast_image.jpg');
+    const voorstelling = window.location.href
+    const slug = voorstelling.split('/').pop();
+    const image = require(`../Assets/Images/GreenThingy/${slug}.JPG`);
     
     return (<div className='green'>
         

@@ -1,7 +1,7 @@
 import GreenThingy from "./GreenThingy"
 import '../Stylesheets/Contact.css'
 import emailjs from '@emailjs/browser'
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const initialForm = {
     to_name : "",
@@ -12,6 +12,10 @@ const initialForm = {
 
 function Contact(){
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+        }, [])
+        
     var date = new Date()
     const [hasSend, setHasSend] = useState(false)
     const [formData, setFormData] = useState({...initialForm})
@@ -96,11 +100,11 @@ function Contact(){
 
                     
                     <label for="phone">Telefoonnummer</label>
-                    <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleInput} placeholder="Telefoonnummer"/>
+                    <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleInput} placeholder="Telefoonnummer..."/>
 
 
-                    <label for="subject">Subject  *</label>
-                    <textarea required id="subject" name="subject" placeholder="Write something.." onChange={handleInput} value={formData.subject} style={{"height":"200px"}}></textarea>
+                    <label for="subject">Opmerking  *</label>
+                    <textarea required id="subject" name="subject" placeholder="" onChange={handleInput} value={formData.subject} style={{"height":"200px"}}></textarea>
 
                     <button disabled={!validateInput(formData)} className="submit" onClick={(e)=> send_contact(e)}>Verzenden</button>
 
