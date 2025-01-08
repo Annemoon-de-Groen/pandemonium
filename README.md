@@ -1,3 +1,21 @@
+npm run start :: Starts script in localhost
+
+To deploy:: 
+- git add -A
+- git commit -m "commitmessage"
+- git push
+- npm run build
+- copy paste build/index.html to public/404.html
+- npm run deploy
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

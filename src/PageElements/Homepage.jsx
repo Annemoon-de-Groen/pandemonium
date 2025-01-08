@@ -39,8 +39,8 @@ function Homepage(){
         </div>
         <div className='oker'>
             <div id='oker_tekst'>
-            <p >Pandemonium is een theatergezelschap dat bestaat sinds 2023. Wij maken muziektheater voorstellingen die volledig gemaakt en geproduceerd zijn door jongeren. Het gezelschap bestaat uit acteurs, muzikanten, kostuum- en decorcrew en meer. </p>
-            <p>Wij nodige je van harte uit bij onze eerst volgende voorstelling, kijk hier onder voor informatie en koop snel je kaarten!</p>
+            <p >Pandemonium is een theatergezelschap dat bestaat sinds 2023. Wij maken muziektheatervoorstellingen die volledig gemaakt en geproduceerd zijn door jongeren. Het gezelschap bestaat uit acteurs, muzikanten, kostuum- en decorcrew en meer. </p>
+            <p>Wij nodigen je van harte uit bij onze eerstvolgende voorstelling, kijk hieronder voor informatie en koop snel je kaarten!</p>
         </div>
         <div>
             <img id='oker_image' src={image} alt="Afbeelding van Spelling Bee met Olive (Died)e en Barfée (Liza)"></img>
