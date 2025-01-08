@@ -30,7 +30,7 @@ function GalerijPagina(){
                 <div>
                     <div className="">
                         {imageList.map((image, index) => (
-                            <img key={index} src={image} alt={`image-${index}`} className="galerij_photo" onClick={() => setZoomedImage(image)}/>
+                            <img loading="lazy" key={index} src={image} alt={`image-${index}`} className="galerij_photo" onClick={() => setZoomedImage(image)}/>
                         ))}
                     </div> 
                 </div>
