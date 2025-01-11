@@ -37,6 +37,19 @@
     object-position: 50% 65% !important;
 }
 
+#Loeke_id{
+    object-position: 50% 18% !important;
+}
+#Sylvester_id,
+#Lora_id{
+    object-position: 50% 6% !important;
+}
+
+#October_id,
+#Annemoon_id{
+    object-position: 50% 60% !important;
+}
+
 .name {
     line-height: 7px;
     font-size: 1.5vw;   
