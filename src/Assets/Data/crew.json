@@ -8,7 +8,7 @@
             "category": "cast",
             "bio" : "",
             "functie": [
-                "cast",
+                "acteur",
                 "regisseur",
                 "kostuumteam"
             ]
@@ -21,7 +21,7 @@
             "category": "cast",
             "bio" : "",
             "functie": [
-                "cast",
+                "acteur",
                 "kostuumteam"
                         ]
         },
@@ -33,7 +33,7 @@
             "category": "cast",
             "bio" : "",
             "functie": [
-                "cast"
+                "acteur"
             ]
         },
         {
@@ -44,7 +44,7 @@
             "category": "cast",
             "bio" : "",
             "functie": [
-                "cast",
+                "acteur",
                 "techniek"
             ]
         },
@@ -56,7 +56,7 @@
             "category": "cast",
             "bio" : "",
             "functie": [
-                "cast"
+                "acteur"
             ]
         },
                 {
@@ -67,7 +67,7 @@
             "category": "cast",
             "bio" : "",
             "functie": [
-                "cast",
+                "acteur",
                 "choreograaf",
                 "graphic designer"
             ]
@@ -80,7 +80,7 @@
             "category": "cast",
             "bio" : "",
             "functie": [
-                "cast",
+                "acteur",
                 "kostuumteam"
             ]
         },
@@ -92,7 +92,7 @@
             "category": "cast",
             "bio" : "",
             "functie": [
-                "cast",
+                "acteur",
                 "kostuumteam"
             ]
         },
@@ -104,7 +104,7 @@
             "category": "cast",
             "bio" : "",
             "functie": [
-                "cast",
+                "acteur",
                 "regisseur"
             ]
         },
@@ -116,7 +116,7 @@
             "category": "cast",
             "bio" : "",
             "functie": [
-                "cast"
+                "acteur"
             ]
         },
                 {
@@ -127,7 +127,7 @@
             "category": "cast",
             "bio" : "",
             "functie": [
-                "cast"
+                "acteur"
             ]
         },
                 {
@@ -138,7 +138,7 @@
             "category": "cast",
             "bio" : "",
             "functie": [
-                "cast"
+                "acteur"
             ]
         },
                 {

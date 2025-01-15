@@ -97,6 +97,21 @@
     height: 40vh;
     overflow: hidden;
   object-fit: cover;
+    object-position: 50% 25%;
+}
+
+#Loeke_id{
+    object-position: 50% 18% !important;
+}
+#Sylvester_id,
+#Lora_id{
+    object-position: 50% 6% !important;
+}
+
+#October_id,
+#Annemoon_id,
+#Anne-Sophie_id{
+    object-position: 50% 50% !important;
 }
 
 
