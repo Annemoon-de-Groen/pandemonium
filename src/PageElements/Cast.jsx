@@ -19,7 +19,7 @@ function Cast() {
     <div className='cast_page'>
     {display('Cast', imageList)}
     {display('Band', imageList)}
-    {display('Kostuum', imageList)}
+    {display('Crew', imageList)}
     </div>
     </>
     )
@@ -31,7 +31,7 @@ function display(name, imageList){
         <h2 className='category'>{name}</h2>
         <div className='crewList'>
     {crew.crew.map(x => {
-        if (x.category === name.toLowerCase())
+        if (x.category === name.toLowerCase() && x.actief)
         {
             x.image = imageList.find(i => i.includes(x.first_name))
             return <CastMember person={x}/>

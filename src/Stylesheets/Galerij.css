@@ -22,8 +22,7 @@
     margin: auto 6vw;
 }
 .galerij_page_top {
-display: grid
-;
+display: grid;
     grid-template-columns: 55% 50%;
     column-gap: 5%;
 }
@@ -34,10 +33,16 @@ display: grid
 }
 .galerij_list {
     display: grid;
-    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-columns: 28vw 28vw 28vw;
     margin-left: 6vw;
     margin-right: 6vw;
     text-align: center;
+    column-gap: 2vw;
+}
+
+.galerij_jaar {
+  position: relative;
+  bottom: 10px;
 }
 }
 

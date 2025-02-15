@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 const backgroundCount = 3
 
 //TODO::: Voeg URL toe naar externe ticketpagina wanneer isDisabled op false wordt gezet
-const isDisabled = false;
+const isDisabled = true;
 
 function Homepage(){
     
@@ -43,15 +43,15 @@ function Homepage(){
             <p>Wij nodigen je van harte uit bij onze eerstvolgende voorstelling, kijk hieronder voor informatie en koop snel je kaarten!</p>
         </div>
         <div>
-            <img id='oker_image' src={image} alt="Afbeelding van Spelling Bee met Olive (Died)e en Barfée (Liza)"></img>
+            <img id='oker_image' src={image} alt="Afbeelding van Spelling Bee met Olive (Diede) en Barfée (Liza)"></img>
 
         </div>
         </div>
         <div id='komende_voorstelling'>
             <div id='komende_voorstelling_tekst'>
                 <h3>Aankomende voorstellingen</h3>
-                <h4>Lang en gelukkig</h4>
-                <p>Wat gebeurt er als een vergeetachtige fee het sprookje van Assepoester, Roodkapje en een prins vertelt? Daar kom je achter in de sprookjesvoorstelling Lang en Gelukkig! Deze voorstelling is een verzameling van klassieke sprookjes met een alternatieve draai en een knipoog naar de actualiteit. Lang en Gelukkig is voor het hele gezin, dus iedereen is welkom. Koop gauw je kaarten voor een van de voorstellingsdagen! </p>
+                <h4>Drama in het dameselftal</h4>
+                <p>... </p>
                 {
                     isDisabled ?
                    <p className='koop_kaartje_tekst'>Kaartjes binnenkort beschikbaar</p>:
@@ -62,7 +62,7 @@ function Homepage(){
 
                 }
             </div>
-            <img id='poster' src={poster} alt="Poster van Lang en Gelukkig"></img>
+            {/* <img id='poster' src={poster} alt="Poster van Lang en Gelukkig"></img> */}
         </div>
         <div id='information'>
             <div className='information_block'>
@@ -71,13 +71,18 @@ function Homepage(){
                 </div>
                 <div className='information_info'>
                     <div>
+                        <p>Nog niet bekend</p>
+                        <p>(Waarschijnlijk rond juni)</p>
+                    </div>
+
+                    {/* <div>
                         <p>Zaterdag 8 februari</p>
                         <p>19:30</p>
                     </div>
                     <div>
                         <p>Zondag 9 februari</p>
                         <p>19:30</p>
-                    </div>
+                    </div> */}
                 </div>
 
             </div>

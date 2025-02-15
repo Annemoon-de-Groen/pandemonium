@@ -7,6 +7,7 @@
             "pronouns": "zij/die",
             "category": "cast",
             "bio" : "",
+            "actief": true,
             "functie": [
                 "acteur",
                 "regisseur",
@@ -20,6 +21,7 @@
             "pronouns": "zij/haar",
             "category": "cast",
             "bio" : "",
+            "actief": true,
             "functie": [
                 "acteur",
                 "kostuumteam"
@@ -32,6 +34,7 @@
             "pronouns": "",
             "category": "cast",
             "bio" : "",
+            "actief": true,
             "functie": [
                 "acteur"
             ]
@@ -41,10 +44,10 @@
             "first_name": "Luca",
             "last_name": "de Vlieger",
             "pronouns": "hij/hem",
-            "category": "cast",
+            "category": "crew",
             "bio" : "",
+            "actief": true,
             "functie": [
-                "acteur",
                 "techniek"
             ]
         },
@@ -55,6 +58,7 @@
             "pronouns": "zij/haar",
             "category": "cast",
             "bio" : "",
+            "actief": true,
             "functie": [
                 "acteur"
             ]
@@ -66,6 +70,7 @@
             "pronouns": "zij/haar",
             "category": "cast",
             "bio" : "",
+            "actief": true,
             "functie": [
                 "acteur",
                 "choreograaf",
@@ -79,6 +84,7 @@
             "pronouns": "zij/haar",
             "category": "cast",
             "bio" : "",
+            "actief": true,
             "functie": [
                 "acteur",
                 "kostuumteam"
@@ -91,6 +97,7 @@
             "pronouns": "hij/hem",
             "category": "cast",
             "bio" : "",
+            "actief": true,
             "functie": [
                 "acteur",
                 "kostuumteam"
@@ -103,6 +110,7 @@
             "pronouns": "zij/haar",
             "category": "cast",
             "bio" : "",
+            "actief": true,
             "functie": [
                 "acteur",
                 "regisseur"
@@ -115,6 +123,7 @@
             "pronouns": "hij/hem",
             "category": "cast",
             "bio" : "",
+            "actief": true,
             "functie": [
                 "acteur"
             ]
@@ -126,6 +135,7 @@
             "pronouns": "zij/haar",
             "category": "cast",
             "bio" : "",
+            "actief": true,
             "functie": [
                 "acteur"
             ]
@@ -137,6 +147,7 @@
             "pronouns": "zij/haar",
             "category": "cast",
             "bio" : "",
+            "actief": true,
             "functie": [
                 "acteur"
             ]
@@ -148,6 +159,7 @@
             "pronouns": "die/hun",
             "category": "band",
             "bio" : "",
+            "actief": true,
             "functie": [
                 "begeleider band",
                 "gitaar"
@@ -158,12 +170,12 @@
             "first_name": "Annemoon",
             "last_name": "de Groen",
             "pronouns": "zij/haar",
-            "category": "kostuum",
+            "category": "crew",
             "bio" : "",
+            "actief": true,
             "functie": [
                 "website",
-                "kostuumteam",
-                "fotograaf"
+                "kostuumteam"
             ]
         },
                 {
@@ -171,10 +183,12 @@
             "first_name": "October",
             "last_name": "Sieswerda",
             "pronouns": "hij/hem",
-            "category": "kostuum",
+            "category": "crew",
             "bio" : "",
+            "actief": true,
             "functie": [
-                "kostuumteam"
+                "kostuumteam",
+                "props maken"
             ]
         },
         {
@@ -184,6 +198,7 @@
             "pronouns": "hij/hem",
             "category": "band",
             "bio" : "",
+            "actief": false,
             "functie": [
                 "drums"
             ]
@@ -195,6 +210,7 @@
             "pronouns": "zij/haar",
             "category": "band",
             "bio" : "",
+            "actief": true,
             "functie": [
                 "viool"
             ]
@@ -206,6 +222,7 @@
             "pronouns": "hij/hem",
             "category": "band",
             "bio" : "",
+            "actief": true,
             "functie": [
                 "basgitaar"
             ]
@@ -217,8 +234,22 @@
             "pronouns": "zij/haar",
             "category": "band",
             "bio" : "",
+            "actief": false,
             "functie": [
                 "piano"
+            ]
+        },
+        {
+            "id": 21,
+            "first_name": "Zelvoyca",
+            "last_name": "Egbers",
+            "pronouns": "die/haar",
+            "category": "crew",
+            "bio" : "",
+            "actief": true,
+            "functie": [
+                "grime",
+                "video-opname"
             ]
         }
 

@@ -11,7 +11,6 @@ import GalerijPagina from './PageElements/GalerijPagina';
 import Contact from './PageElements/Contact';
 
 function App() {
-  console.log("Testttt")
   return (
     <div className="App">
       <NavBar/>
