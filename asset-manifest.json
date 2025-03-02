@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.bcdc785b.css",
-    "main.js": "/static/js/main.0d2805d8.js",
+    "main.css": "/static/css/main.94894d2f.css",
+    "main.js": "/static/js/main.f84d222c.js",
     "static/js/453.025ad9f6.chunk.js": "/static/js/453.025ad9f6.chunk.js",
     "static/media/IMG_1533.JPG": "/static/media/IMG_1533.60b36b462a48d7eb5e07.JPG",
+    "static/media/Nazeni.JPG": "/static/media/Nazeni.e278e21ce2ab04f3897c.JPG",
     "static/media/1.JPG": "/static/media/1.ead17d6ad0ea8c207a69.JPG",
     "static/media/IMG_1048.JPG": "/static/media/IMG_1048.ead17d6ad0ea8c207a69.JPG",
     "static/media/Zelvoyca.JPG": "/static/media/Zelvoyca.1ead256d60078a50ff1e.JPG",
@@ -377,12 +378,12 @@
     "static/media/pandemonium_icon.png": "/static/media/pandemonium_icon.e9000f738a8843978ae8.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.bcdc785b.css.map": "/static/css/main.bcdc785b.css.map",
-    "main.0d2805d8.js.map": "/static/js/main.0d2805d8.js.map",
+    "main.94894d2f.css.map": "/static/css/main.94894d2f.css.map",
+    "main.f84d222c.js.map": "/static/js/main.f84d222c.js.map",
     "453.025ad9f6.chunk.js.map": "/static/js/453.025ad9f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcdc785b.css",
-    "static/js/main.0d2805d8.js"
+    "static/css/main.94894d2f.css",
+    "static/js/main.f84d222c.js"
   ]
 }
