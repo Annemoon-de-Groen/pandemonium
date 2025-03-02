@@ -58,7 +58,7 @@
             "pronouns": "zij/haar",
             "category": "cast",
             "bio" : "",
-            "actief": true,
+            "actief": false,
             "functie": [
                 "acteur"
             ]
@@ -84,7 +84,7 @@
             "pronouns": "zij/haar",
             "category": "cast",
             "bio" : "",
-            "actief": true,
+            "actief": false,
             "functie": [
                 "acteur",
                 "kostuumteam"
@@ -250,6 +250,18 @@
             "functie": [
                 "grime",
                 "video-opname"
+            ]
+        },
+        {
+            "id": 22,
+            "first_name": "Nazeni",
+            "last_name": "Sookiasian Mamoore",
+            "pronouns": "zij/haar",
+            "category": "band",
+            "bio" : "",
+            "actief": true,
+            "functie": [
+                "piano"
             ]
         }
 

@@ -1,4 +1,5 @@
 function CastMember({person}) {
+    //FORMAAT VAAN naam moet 1.5vw zijn maar Noi's naam is te lang dus als hij als Noi mag staan/ weggaat dan moet de namen weer groter
     return (
         <div className="person">
             <div>
