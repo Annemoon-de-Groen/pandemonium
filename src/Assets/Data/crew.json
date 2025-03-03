@@ -78,19 +78,6 @@
             ]
         },
                 {
-            "id": 7,
-            "first_name": "Clara",
-            "last_name": "Huydecoper",
-            "pronouns": "zij/haar",
-            "category": "cast",
-            "bio" : "",
-            "actief": false,
-            "functie": [
-                "acteur",
-                "kostuumteam"
-            ]
-        },
-                {
             "id": 8,
             "first_name": "Tjebbe",
             "last_name": "Faber",
@@ -263,7 +250,66 @@
             "functie": [
                 "piano"
             ]
+        },
+        {
+            "id": 23,
+            "first_name": "Fenne",
+            "last_name": "Peters",
+            "pronouns": "zij/haar",
+            "category": "cast",
+            "bio" : "",
+            "actief": true,
+            "functie": [
+                "acteur"
+            ]
+        },
+        {
+            "id": 24,
+            "first_name": "Nanou",
+            "last_name": "Brinckman",
+            "pronouns": "zij/haar",
+            "category": "cast",
+            "bio" : "",
+            "actief": true,
+            "functie": [
+                "acteur"
+            ]
+        },
+        {
+            "id": 25,
+            "first_name": "Ariane",
+            "last_name": "Eijkelkamp",
+            "pronouns": "zij/haar",
+            "category": "cast",
+            "bio" : "",
+            "actief": true,
+            "functie": [
+                "acteur"
+            ]
+        },
+            {
+            "id": 7,
+            "first_name": "Clara",
+            "last_name": "Huydecoper",
+            "pronouns": "zij/haar",
+            "category": "crew",
+            "bio" : "",
+            "actief": true,
+            "functie": [
+                "kostuumteam"
+            ]
+        },
+        {
+            "id": 26,
+            "first_name": "Aniek",
+            "last_name": "Harmsen",
+            "pronouns": "zij/haar",
+            "category": "cast",
+            "bio" : "",
+            "actief": true,
+            "functie": [
+                "acteur"
+            ]
         }
-
     ]
 }
