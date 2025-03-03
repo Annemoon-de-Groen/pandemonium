@@ -1,16 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.94894d2f.css",
-    "main.js": "/static/js/main.f84d222c.js",
+    "main.js": "/static/js/main.8979f67b.js",
     "static/js/453.025ad9f6.chunk.js": "/static/js/453.025ad9f6.chunk.js",
+    "static/media/Fenne.JPG": "/static/media/Fenne.5ea3c5f43020fdfdab10.JPG",
     "static/media/IMG_1533.JPG": "/static/media/IMG_1533.60b36b462a48d7eb5e07.JPG",
+    "static/media/Ariane.JPG": "/static/media/Ariane.b40a8a335d7355b51f12.JPG",
     "static/media/Nazeni.JPG": "/static/media/Nazeni.e278e21ce2ab04f3897c.JPG",
     "static/media/1.JPG": "/static/media/1.ead17d6ad0ea8c207a69.JPG",
     "static/media/IMG_1048.JPG": "/static/media/IMG_1048.ead17d6ad0ea8c207a69.JPG",
+    "static/media/Lege_muur.JPG": "/static/media/Lege_muur.cf56f53c22eb00421781.JPG",
     "static/media/Zelvoyca.JPG": "/static/media/Zelvoyca.1ead256d60078a50ff1e.JPG",
     "static/media/IMG_1047.JPG": "/static/media/IMG_1047.fdc3c26858e8ba1a515d.JPG",
+    "static/media/Nanou.JPG": "/static/media/Nanou.359fafb57fe99c89cdac.JPG",
     "static/media/IMG_1046.JPG": "/static/media/IMG_1046.e83de6145f0652c3d97d.JPG",
     "static/media/dklklsafsa.JPG": "/static/media/dklklsafsa.ae58ea280726f6f8d508.JPG",
+    "static/media/Aniek.JPG": "/static/media/Aniek.63e3279c2916f041ee98.JPG",
     "static/media/Clara.JPG": "/static/media/Clara.259e820af28f95d21929.JPG",
     "static/media/frontImageSmall.jpg": "/static/media/frontImageSmall.008ef37e0c9295b50fa2.jpg",
     "static/media/cast.JPG": "/static/media/cast.6929b2f8b678761a8e00.JPG",
@@ -379,11 +384,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.94894d2f.css.map": "/static/css/main.94894d2f.css.map",
-    "main.f84d222c.js.map": "/static/js/main.f84d222c.js.map",
+    "main.8979f67b.js.map": "/static/js/main.8979f67b.js.map",
     "453.025ad9f6.chunk.js.map": "/static/js/453.025ad9f6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94894d2f.css",
-    "static/js/main.f84d222c.js"
+    "static/js/main.8979f67b.js"
   ]
 }
