@@ -227,6 +227,14 @@ background-color: #577b57c9;
     text-align: center;
 }
 
+.information_warning{
+    color: black;
+    background-color: #ff0909;
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+}
+
 #mapsLocation {
     background-color: #A9BDA1;
     padding: 10px;

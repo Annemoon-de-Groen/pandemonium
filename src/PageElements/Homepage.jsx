@@ -50,8 +50,8 @@ function Homepage(){
         <div id='komende_voorstelling'>
             <div id='komende_voorstelling_tekst'>
                 <h3>Aankomende voorstellingen</h3>
-                <h4>Drama in het dameselftal</h4>
-                <p>... </p>
+                <h4>Doorgespeeld</h4>
+                <p>Na een dramatisch verloren wedstrijd worden de meiden van SC Spaubeek opgesloten in de kleedkamer. Iemand heeft de tactiek doorgespeeld, maar wie? Wat begint met een simpel verhoor, ontaardt in een chaos van verdachtmakingen, onderhuidse spanningen en onthullingen die verder gaan dan voetbal. “Doorgespeeld” is een komische voorstelling over vriendschap, verraad en verliezen (dik verliezen...) </p>
                 {
                     isDisabled ?
                    <p className='koop_kaartje_tekst'>Kaartjes binnenkort beschikbaar</p>:
@@ -71,8 +71,8 @@ function Homepage(){
                 </div>
                 <div className='information_info'>
                     <div>
-                        <p>Nog niet bekend</p>
-                        <p>(Waarschijnlijk rond juni)</p>
+                        <p>21 en 22 juni</p>
+                        <p className='information_warning'>Staat nog niet vast</p>
                     </div>
 
                     {/* <div>
