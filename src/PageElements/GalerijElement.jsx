@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom"
 
 function GalerijElement({data}){
     const navigate = useNavigate()
-    const cast_image = require(`../Assets/Images/${data.thumbnail.afbeelding}`);
+    const cast_image = require(`../Assets/Images/GreenThingy/${data.thumbnail.afbeelding}.JPG`);
 
     return (
         <div className="galerij_element" onClick={() => navigate(data.thumbnail.link)}>

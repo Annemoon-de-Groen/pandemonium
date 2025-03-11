@@ -1,26 +1,40 @@
-import { useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 import history from '../Assets/Data/history.json'
 import GreenThingy from "./GreenThingy"
 import { useEffect, useState } from "react"
 
 
 function GalerijPagina(){
-    const {voorstelling} = useParams()
-    const item = history.history.find(x => x.thumbnail.link === voorstelling)
-    var images = require.context('../Assets/Images/spelling_bee/', true);
-    if (voorstelling === 'lang_en_gelukkig')
-    {
-        images = require.context('../Assets/Images/lang_en_gelukkig/', true);
-    }
-
-        
-    const imageList = images.keys().map(image => images(image));
     const [zoomedImage, setZoomedImage] = useState(null)
 
     
     useEffect(() => {
         window.scrollTo(0, 0)
         }, [])
+    const navigate = useNavigate()
+    const {voorstelling} = useParams()
+    const item = history.history.find(x => x.thumbnail.link === voorstelling)
+
+    console.log(item)
+    var images = require.context('../Assets/Images/Spelling_bee/', true);
+    if (voorstelling !== 'spelling_bee'){
+        if (voorstelling === 'lang_en_gelukkig')
+            {
+                images = require.context('../Assets/Images/lang_en_gelukkig/', true);
+            }
+        else
+            return (
+                <>
+                    <p>{voorstelling} is geen voorstelling</p>
+                    <button className='button' id='go_back_button' onClick={() => navigate('/galerij')}>Terug naar galerij</button>
+                </>
+
+            )
+    }
+
+        
+    const imageList = images.keys().map(image => images(image));
+
     return (
         <div>
             <GreenThingy text={item.thumbnail.naam} format={imageList[0]} /> 
