@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.94894d2f.css",
-    "main.js": "/static/js/main.cf743011.js",
+    "main.css": "/static/css/main.1754399b.css",
+    "main.js": "/static/js/main.d2b17e3f.js",
     "static/js/453.3743fa3b.chunk.js": "/static/js/453.3743fa3b.chunk.js",
     "static/media/Fenne.JPG": "/static/media/Fenne.5ea3c5f43020fdfdab10.JPG",
     "static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0357.JPG": "/static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0357.b7f7ac1f839fec22ae8e.JPG",
@@ -381,14 +381,12 @@
     "static/media/2024-06-15 � IMG_0542.JPG": "/static/media/2024-06-15 � IMG_0542.2be21e78099169fdb6d1.JPG",
     "static/media/2024-06-15 � IMG_0535.JPG": "/static/media/2024-06-15 � IMG_0535.fbb3b1782bc3a53fb77e.JPG",
     "static/media/2024-06-15 � IMG_0543.JPG": "/static/media/2024-06-15 � IMG_0543.f5cadf9ad8a78ae3d77c.JPG",
-    "static/media/frontImageSmall_old.jpg": "/static/media/frontImageSmall_old.f5cadf9ad8a78ae3d77c.jpg",
     "static/media/galerij.JPG": "/static/media/galerij.f5cadf9ad8a78ae3d77c.JPG",
     "static/media/2024-06-15 � IMG_0514.JPG": "/static/media/2024-06-15 � IMG_0514.ca911c070d3a6608d13b.JPG",
     "static/media/2024-06-15 � IMG_0622.JPG": "/static/media/2024-06-15 � IMG_0622.e2d1b13c88cc994e8b67.JPG",
     "static/media/2024-06-15 � IMG_0508.JPG": "/static/media/2024-06-15 � IMG_0508.414fc2f71b0bf14e3638.JPG",
     "static/media/2024-06-15 � IMG_0507.JPG": "/static/media/2024-06-15 � IMG_0507.14394bae318c487977b2.JPG",
     "static/media/2024-06-15 � IMG_0513.JPG": "/static/media/2024-06-15 � IMG_0513.278a97404a7cdfab2186.JPG",
-    "static/media/Poster.jpg": "/static/media/Poster.4e6e799b5adc48a52c0e.jpg",
     "static/media/2024-06-15 � IMG_0693.JPG": "/static/media/2024-06-15 � IMG_0693.d88d8333dde8a1b71fd6.JPG",
     "static/media/2024-06-15 � IMG_0690.JPG": "/static/media/2024-06-15 � IMG_0690.f32a9b4054a28e4c9880.JPG",
     "static/media/ee_barfee.JPG": "/static/media/ee_barfee.ebce93dfcf8d5910b899.JPG",
@@ -566,7 +564,6 @@
     "static/media/IMG-20240524-WA0030.jpg": "/static/media/IMG-20240524-WA0030.31d5ce45da747496cc20.jpg",
     "static/media/IMG-20240524-WA0020.jpg": "/static/media/IMG-20240524-WA0020.4ac83ecf1cd3c1eab5e9.jpg",
     "static/media/IMG-20240524-WA0040.jpg": "/static/media/IMG-20240524-WA0040.7b47d2aea899ea7c4b75.jpg",
-    "static/media/cast_image.jpg": "/static/media/cast_image.7b47d2aea899ea7c4b75.jpg",
     "static/media/contact.JPG": "/static/media/contact.7b47d2aea899ea7c4b75.JPG",
     "static/media/WhatsApp Image 2025-02-09 at 23.44.40.jpeg": "/static/media/WhatsApp Image 2025-02-09 at 23.44.40.4244ca625c0c96d4fd3f.jpeg",
     "static/media/IMG-20240524-WA0016.jpg": "/static/media/IMG-20240524-WA0016.784635ac3bde37942f70.jpg",
@@ -590,14 +587,13 @@
     "static/media/WhatsApp Image 2025-02-09 at 23.44.41.jpeg": "/static/media/WhatsApp Image 2025-02-09 at 23.44.41.5965df5e8995078e436d.jpeg",
     "static/media/IMG-20240524-WA0044.jpg": "/static/media/IMG-20240524-WA0044.9b170219a40125dbc7bc.jpg",
     "static/media/pandemonium_icon.png": "/static/media/pandemonium_icon.e9000f738a8843978ae8.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.94894d2f.css.map": "/static/css/main.94894d2f.css.map",
-    "main.cf743011.js.map": "/static/js/main.cf743011.js.map",
+    "main.1754399b.css.map": "/static/css/main.1754399b.css.map",
+    "main.d2b17e3f.js.map": "/static/js/main.d2b17e3f.js.map",
     "453.3743fa3b.chunk.js.map": "/static/js/453.3743fa3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94894d2f.css",
-    "static/js/main.cf743011.js"
+    "static/css/main.1754399b.css",
+    "static/js/main.d2b17e3f.js"
   ]
 }
