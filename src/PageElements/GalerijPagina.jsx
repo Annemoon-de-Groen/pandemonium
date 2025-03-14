@@ -15,7 +15,6 @@ function GalerijPagina(){
     const {voorstelling} = useParams()
     const item = history.history.find(x => x.thumbnail.link === voorstelling)
 
-    console.log(item)
     var images = require.context('../Assets/Images/Spelling_bee/', true);
     if (voorstelling !== 'spelling_bee'){
         if (voorstelling === 'lang_en_gelukkig')

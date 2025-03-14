@@ -1,6 +1,5 @@
 import '../Stylesheets/Homepage.css'
 import image from '../Assets/Images/frontImageSmall.jpg'
-import poster from '../Assets/Images/Poster.jpg'
 import { useEffect, useState } from 'react'
 
 const backgroundCount = 3
@@ -24,7 +23,6 @@ function Homepage(){
             return
         }
         setImgClass((imgClass + direction))
-        console.log(imgClass)
         
     }
     return(

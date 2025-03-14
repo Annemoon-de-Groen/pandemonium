@@ -7,7 +7,7 @@ function GalerijElement({data}){
     return (
         <div className="galerij_element" onClick={() => navigate(data.thumbnail.link)}>
             <div>
-                <img className="galerij_afbeelding" src={cast_image}></img>
+                <img className="galerij_afbeelding" src={cast_image} alt=""></img>
                 <div>
                 <p>{data.thumbnail.naam}</p>
                 <p className="galerij_jaar">{data.thumbnail.jaar}</p>

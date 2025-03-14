@@ -12,8 +12,6 @@ function Cast() {
     const images = require.context('../Assets/Images/Cast_and_crew/', true);
     const imageList = images.keys().map(image => images(image));
 
-
-    console.log(imageList)
     return (<>
     <GreenThingy text='De cast en crew van Pandemonium' format='../Assets/Images/cast_image.jpg'/>
     <div className='cast_page'>
@@ -30,11 +28,11 @@ function display(name, imageList){
         <>
         <h2 className='category'>{name}</h2>
         <div className='crewList'>
-    {crew.crew.map(x => {
+    {crew.crew.map((x, i) => {
         if (x.category === name.toLowerCase() && x.actief)
         {
             x.image = imageList.find(i => i.includes(x.first_name))
-            return <CastMember person={x}/>
+            return <CastMember key={`cast_member_${i}`} person={x}/>
 
         }
         return <></>
