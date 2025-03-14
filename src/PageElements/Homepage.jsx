@@ -71,18 +71,13 @@ function Homepage(){
                 </div>
                 <div className='information_info'>
                     <div>
-                        <p>21 en 22 juni</p>
-                        <p className='information_warning'>Staat nog niet vast</p>
-                    </div>
-
-                    {/* <div>
-                        <p>Zaterdag 8 februari</p>
+                        <p>Zaterdag 21 juni</p>
                         <p>19:30</p>
                     </div>
                     <div>
-                        <p>Zondag 9 februari</p>
+                        <p>Zondag 22 juni</p>
                         <p>19:30</p>
-                    </div> */}
+                    </div>
                 </div>
 
             </div>
