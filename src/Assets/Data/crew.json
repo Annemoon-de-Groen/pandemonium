@@ -292,23 +292,12 @@
             "first_name": "Clara",
             "last_name": "Huydecoper",
             "pronouns": "zij/haar",
-            "category": "crew",
-            "bio" : "",
-            "actief": true,
-            "functie": [
-                "kostuumteam"
-            ]
-        },
-        {
-            "id": 26,
-            "first_name": "Aniek",
-            "last_name": "Harmsen",
-            "pronouns": "zij/haar",
             "category": "cast",
             "bio" : "",
             "actief": true,
             "functie": [
-                "acteur"
+                "acteur",
+                "kostuumteam"
             ]
         }
     ]
