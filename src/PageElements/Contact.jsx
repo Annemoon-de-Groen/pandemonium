@@ -61,7 +61,7 @@ function Contact(){
     })
 
     const handleInput = (event) =>{
-        const {name, type, value} = event.target
+        const {name, value} = event.target
         if (name){
             setFormData({...formData, [name] : value})
         }   

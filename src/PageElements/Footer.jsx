@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom"
 import icon from "../Assets/Images/pandemonium_icon.png"
 import '../Stylesheets/Footer.css'
-import {BrowserView, MobileView} from 'react-device-detect';
+import {BrowserView} from 'react-device-detect';
 
 function Footer(){
     const navigate = useNavigate()
