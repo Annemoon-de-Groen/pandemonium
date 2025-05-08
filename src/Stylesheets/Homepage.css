@@ -21,6 +21,7 @@ html {
 
 .frontPandemonium {
         background-color: #577B57;
+        font-family:cursive;
         color: #EEC8A3;
         padding: 40px;
         width: max-content;
@@ -367,4 +368,8 @@ background-color: #D89C7B;
 .front_hero {
     display: flex;
     justify-content: center;
+}
+
+.popup {
+    color:#577B57;
 }

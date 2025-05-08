@@ -77,6 +77,19 @@
                 "graphic designer"
             ]
         },
+        {
+            "id": 7,
+            "first_name": "Clara",
+            "last_name": "Huydecoper",
+            "pronouns": "zij/haar",
+            "category": "cast",
+            "bio" : "",
+            "actief": true,
+            "functie": [
+                "acteur",
+                "kostuumteam"
+            ]
+        },
                 {
             "id": 8,
             "first_name": "Tjebbe",
@@ -149,7 +162,8 @@
             "actief": true,
             "functie": [
                 "begeleider band",
-                "gitaar"
+                "gitaar",
+                "xylofoon"
             ]
         },
                 {
@@ -286,19 +300,18 @@
             "functie": [
                 "acteur"
             ]
-        },
-            {
-            "id": 7,
-            "first_name": "Clara",
-            "last_name": "Huydecoper",
-            "pronouns": "zij/haar",
-            "category": "cast",
+        },            {
+            "id": 26,
+            "first_name": "Kay",
+            "last_name": "van den Berg",
+            "pronouns": "",
+            "category": "band",
             "bio" : "",
             "actief": true,
             "functie": [
-                "acteur",
-                "kostuumteam"
+                "drums"
             ]
         }
+
     ]
 }

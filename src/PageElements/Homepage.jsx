@@ -1,11 +1,13 @@
 import '../Stylesheets/Homepage.css'
 import image from '../Assets/Images/frontImageSmall.jpg'
 import { useEffect, useState } from 'react'
+import { Dialog, DialogTitle } from '@mui/material';
+import Popup from './Popup';
 
 const backgroundCount = 3
 
 //TODO::: Voeg URL toe naar externe ticketpagina wanneer isDisabled op false wordt gezet
-const isDisabled = true;
+const isDisabled = false;
 
 function Homepage(){
     
@@ -53,7 +55,7 @@ function Homepage(){
                 {
                     isDisabled ?
                    <p className='koop_kaartje_tekst'>Kaartjes binnenkort beschikbaar</p>:
-                <a href='https://www.ticketkantoor.nl/shop/langengelukkig' target='_blank'>
+                <a href='https://www.ticketkantoor.nl/shop/doorgespeeld' target='_blank'>
                    <button disabled={false} id='koop_kaartje_button' className='button'><span>Koop kaartje</span></button> 
 
                 </a>
