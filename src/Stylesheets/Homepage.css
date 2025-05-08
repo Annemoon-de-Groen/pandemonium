@@ -154,7 +154,9 @@ html {
 }
 
 .frontPandemonium {
-background-color: #577b57c9;
+    background-color: #577b57c9;
+    font-family:cursive;
+
         color: #EEC8A3;
         /* border: 5px solid #577b57; */
         padding: 5vw;
@@ -330,10 +332,16 @@ background-color: #D89C7B;
 
 .front_image_3 {
     background-image:  url("../../src/Assets/Images/Front/3.JPG");
+    background-position: 0 0 ;
 }
 
 .front_image_4 {
     background-image:  url("../../src/Assets/Images/Front/4.JPG");
+    background-position: 0 0;
+}
+.front_image_5 {
+    background-image:  url("../../src/Assets/Images/Front/5.JPG");
+    background-position: 0 0;
 }
 
 /* Next & previous buttons */

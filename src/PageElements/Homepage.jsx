@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { Dialog, DialogTitle } from '@mui/material';
 import Popup from './Popup';
 
-const backgroundCount = 3
+const backgroundCount = 5
 
 //TODO::: Voeg URL toe naar externe ticketpagina wanneer isDisabled op false wordt gezet
 const isDisabled = false;
@@ -14,7 +14,7 @@ function Homepage(){
     useEffect(() => {
         window.scrollTo(0, 0)
         }, [])
-    const [imgClass, setImgClass] = useState(2)
+    const [imgClass, setImgClass] = useState(1)
     function plusSlides(direction){
         if (imgClass <= 1 && direction === -1) {
             setImgClass(backgroundCount) 
