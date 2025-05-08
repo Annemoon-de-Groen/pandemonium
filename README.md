@@ -10,7 +10,17 @@ To deploy::
 
 
 
+Als het niet lukt::
+- npm run build
+- git checkout deploy
+- verwijder alles in deploy behalve .gitignore (build en node_modules mogen blijven staan maar alleen omdat ze in .gitignore staan)
+- kopieer de inhoud van build naar buiten
+- copy pase index.html naar 404.html
+- git add -A
+- git commit -m "commitmessage"
+- git push
 
+Nu zou alles moeten werken
 
 
 
