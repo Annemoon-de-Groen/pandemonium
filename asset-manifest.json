@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.75c7daf9.css",
-    "main.js": "/static/js/main.10abbb05.js",
+    "main.js": "/static/js/main.1935287d.js",
     "static/js/453.3743fa3b.chunk.js": "/static/js/453.3743fa3b.chunk.js",
     "static/media/Fenne.JPG": "/static/media/Fenne.5ea3c5f43020fdfdab10.JPG",
     "static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0357.JPG": "/static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0357.b7f7ac1f839fec22ae8e.JPG",
@@ -226,7 +226,9 @@
     "static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0312.JPG": "/static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0312.6dbb8367228e8e5d35b1.JPG",
     "static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0314.JPG": "/static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0314.851082dd6a4fb03b6ecc.JPG",
     "static/media/dklklsafsa.JPG": "/static/media/dklklsafsa.ae58ea280726f6f8d508.JPG",
-    "static/media/Kay.JPG": "/static/media/Kay.63e3279c2916f041ee98.JPG",
+    "static/media/Amelle.JPG": "/static/media/Amelle.3cfa62813a5a2fc5828b.JPG",
+    "static/media/Undefined.JPG": "/static/media/Undefined.63e3279c2916f041ee98.JPG",
+    "static/media/Kay.JPG": "/static/media/Kay.4196e42d0144ef1953ed.JPG",
     "static/media/Clara.JPG": "/static/media/Clara.259e820af28f95d21929.JPG",
     "static/media/frontImageSmall.jpg": "/static/media/frontImageSmall.008ef37e0c9295b50fa2.jpg",
     "static/media/cast.JPG": "/static/media/cast.6929b2f8b678761a8e00.JPG",
@@ -590,11 +592,11 @@
     "static/media/pandemonium_icon.png": "/static/media/pandemonium_icon.e9000f738a8843978ae8.png",
     "index.html": "/index.html",
     "main.75c7daf9.css.map": "/static/css/main.75c7daf9.css.map",
-    "main.10abbb05.js.map": "/static/js/main.10abbb05.js.map",
+    "main.1935287d.js.map": "/static/js/main.1935287d.js.map",
     "453.3743fa3b.chunk.js.map": "/static/js/453.3743fa3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75c7daf9.css",
-    "static/js/main.10abbb05.js"
+    "static/js/main.1935287d.js"
   ]
 }
