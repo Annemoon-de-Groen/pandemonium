@@ -304,12 +304,23 @@
             "id": 26,
             "first_name": "Kay",
             "last_name": "van den Berg",
-            "pronouns": "",
+            "pronouns": "hij/hem",
             "category": "band",
             "bio" : "",
             "actief": true,
             "functie": [
-                "drums"
+                "gitaar"
+            ]
+        },            {
+            "id": 27,
+            "first_name": "Amelle",
+            "last_name": "Noordewier",
+            "pronouns": "zij/haar",
+            "category": "band",
+            "bio" : "",
+            "actief": true,
+            "functie": [
+                "saxofoon"
             ]
         }
 
