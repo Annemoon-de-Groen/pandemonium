@@ -284,7 +284,7 @@
             "pronouns": "zij/haar",
             "category": "cast",
             "bio" : "",
-            "actief": true,
+            "actief": false,
             "functie": [
                 "acteur"
             ]

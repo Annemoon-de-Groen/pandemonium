@@ -14,7 +14,7 @@ function Homepage(){
     useEffect(() => {
         window.scrollTo(0, 0)
         }, [])
-    const [imgClass, setImgClass] = useState(1)
+    const [imgClass, setImgClass] = useState(5)
     function plusSlides(direction){
         if (imgClass <= 1 && direction === -1) {
             setImgClass(backgroundCount) 
