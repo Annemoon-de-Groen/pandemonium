@@ -1,9 +1,7 @@
 import '../Stylesheets/Homepage.css'
 import image from '../Assets/Images/frontImageSmall.jpg'
+import poster from '../Assets/Images/Poster_doorgespeeld.jpeg'
 import { useEffect, useState } from 'react'
-import { Dialog, DialogTitle } from '@mui/material';
-import Popup from './Popup';
-
 const backgroundCount = 5
 
 //TODO::: Voeg URL toe naar externe ticketpagina wanneer isDisabled op false wordt gezet
@@ -62,7 +60,7 @@ function Homepage(){
 
                 }
             </div>
-            {/* <img id='poster' src={poster} alt="Poster van Lang en Gelukkig"></img> */}
+            <img id='poster' src={poster} alt="Poster van doorgespeeld"></img>
         </div>
         <div id='information'>
             <div className='information_block'>
