@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.75c7daf9.css",
-    "main.js": "/static/js/main.7a30c15c.js",
+    "main.css": "/static/css/main.80f8a799.css",
+    "main.js": "/static/js/main.fb740d5a.js",
     "static/js/453.3743fa3b.chunk.js": "/static/js/453.3743fa3b.chunk.js",
     "static/media/Fenne.JPG": "/static/media/Fenne.5ea3c5f43020fdfdab10.JPG",
     "static/media/IMG_1533.JPG": "/static/media/IMG_1533.60b36b462a48d7eb5e07.JPG",
@@ -14,7 +14,6 @@
     "static/media/IMG_1047.JPG": "/static/media/IMG_1047.fdc3c26858e8ba1a515d.JPG",
     "static/media/Nanou.JPG": "/static/media/Nanou.359fafb57fe99c89cdac.JPG",
     "static/media/IMG_1046.JPG": "/static/media/IMG_1046.e83de6145f0652c3d97d.JPG",
-    "static/media/contact.JPG": "/static/media/contact.50c2ab4209fe96dc8a21.JPG",
     "static/media/3.JPG": "/static/media/3.fca0e78e4af392638e25.JPG",
     "static/media/1.JPG": "/static/media/1.ce8e3cd7d4069564974c.JPG",
     "static/media/dklklsafsa.JPG": "/static/media/dklklsafsa.ae58ea280726f6f8d508.JPG",
@@ -300,6 +299,7 @@
     "static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0394.JPG": "/static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0394.c26632ffee9f4f664a66.JPG",
     "static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0381.JPG": "/static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0381.550c3a390cf0da142327.JPG",
     "static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0723.JPG": "/static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0723.5360224b0d6735acf363.JPG",
+    "static/media/contact.JPG": "/static/media/contact.6653d060ab6c1c72d0c6.JPG",
     "static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0378.JPG": "/static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0378.31bcfd64abc5762aaec4.JPG",
     "static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0415.JPG": "/static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0415.373dc63520078739674b.JPG",
     "static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0465.JPG": "/static/media/2025-02-09 � Lang en Gelukkig voorstelling � IMG_0465.20682044c1f17bba9e55.JPG",
@@ -497,6 +497,7 @@
     "static/media/IMG-20240617-WA0066.jpg": "/static/media/IMG-20240617-WA0066.f44ae52b1200ee88e9ac.jpg",
     "static/media/IMG-20240617-WA0030.jpg": "/static/media/IMG-20240617-WA0030.5e2ecd57b4fed3a3d997.jpg",
     "static/media/IMG-20240617-WA0044.jpg": "/static/media/IMG-20240617-WA0044.3cb38a552bedb1358244.jpg",
+    "static/media/Poster_doorgespeeld.jpeg": "/static/media/Poster_doorgespeeld.9ceb13190e447653002e.jpeg",
     "static/media/WhatsApp Image 2025-02-09 at 23.44.32.jpeg": "/static/media/WhatsApp Image 2025-02-09 at 23.44.32.20def5c8de8c3fd4fca3.jpeg",
     "static/media/IMG-20240617-WA0046.jpg": "/static/media/IMG-20240617-WA0046.77293efde804432e976b.jpg",
     "static/media/IMG-20240617-WA0050.jpg": "/static/media/IMG-20240617-WA0050.278b0caf7ebc262c90cf.jpg",
@@ -591,12 +592,12 @@
     "static/media/IMG-20240524-WA0044.jpg": "/static/media/IMG-20240524-WA0044.9b170219a40125dbc7bc.jpg",
     "static/media/pandemonium_icon.png": "/static/media/pandemonium_icon.e9000f738a8843978ae8.png",
     "index.html": "/index.html",
-    "main.75c7daf9.css.map": "/static/css/main.75c7daf9.css.map",
-    "main.7a30c15c.js.map": "/static/js/main.7a30c15c.js.map",
+    "main.80f8a799.css.map": "/static/css/main.80f8a799.css.map",
+    "main.fb740d5a.js.map": "/static/js/main.fb740d5a.js.map",
     "453.3743fa3b.chunk.js.map": "/static/js/453.3743fa3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75c7daf9.css",
-    "static/js/main.7a30c15c.js"
+    "static/css/main.80f8a799.css",
+    "static/js/main.fb740d5a.js"
   ]
 }
