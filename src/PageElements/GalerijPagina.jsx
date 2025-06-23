@@ -16,20 +16,26 @@ function GalerijPagina(){
     const item = history.history.find(x => x.thumbnail.link === voorstelling)
 
     var images = require.context('../Assets/Images/Spelling_bee/', true);
-    if (voorstelling !== 'spelling_bee'){
-        if (voorstelling === 'lang_en_gelukkig')
-            {
-                images = require.context('../Assets/Images/lang_en_gelukkig/', true);
-            }
-        else
+    switch (voorstelling){
+        case "spelling_bee":{
+            break
+        }
+        case "lang_en_gelukkig":{
+            images = require.context('../Assets/Images/lang_en_gelukkig/', true);
+            break
+        }
+        case "doorgespeeld": {
+            images = require.context('../Assets/Images/doorgespeeld/', true);
+            break
+        } 
+        default:
             return (
                 <>
                     <p>{voorstelling} is geen voorstelling</p>
                     <button className='button' id='go_back_button' onClick={() => navigate('/galerij')}>Terug naar galerij</button>
                 </>
-
-            )
-    }
+                ) 
+        }
 
         
     const imageList = images.keys().map(image => images(image));

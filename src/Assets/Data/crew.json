@@ -322,6 +322,17 @@
             "functie": [
                 "saxofoon"
             ]
+        },  {
+            "id": 27,
+            "first_name": "Luuk",
+            "last_name": "Grooten",
+            "pronouns": "hij/hem",
+            "category": "band",
+            "bio" : "",
+            "actief": true,
+            "functie": [
+                "drums"
+            ]
         }
 
     ]

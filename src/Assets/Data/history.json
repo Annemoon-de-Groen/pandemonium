@@ -70,6 +70,45 @@
                 }
             }
 
+        },
+        {
+            "thumbnail":{
+            "naam": "Doorgespeeld",
+            "afbeelding": "doorgespeeld",
+            "link": "doorgespeeld",
+            "jaar": 2025
+            },
+            "page":{
+                "tekst": "Na een dramatisch verloren wedstrijd worden de meiden van SC Spaubeek opgesloten in de kleedkamer. Iemand heeft de tactiek doorgespeeld, maar wie? Wat begint met een simpel verhoor, ontaardt in een chaos van verdachtmakingen, onderhuidse spanningen en onthullingen die verder gaan dan voetbal. “Doorgespeeld” is een komische voorstelling over vriendschap, verraad en verliezen (dik verliezen...)",
+                "regisseur": "Hannelieke Hoogenboom, Lotte Hoek"
+            },
+           "cast":{
+                "acteurs":{
+                    "Hannelieke Hoogenboom": "Claire Bentinck",
+                    "Neomi Bes": "Cato van Aaken",
+                    "Ariane Eijkelkamp": "Roosmarijn de Vries",
+                    "Anne-Sophie Ten Holder": "Izzy Meijer",
+                    "Clara Huydecoper": "Jacky Havelaar-Vos",
+                    "Tjebbe Faber" :"Concierge Remco Brugman",
+                    "Morris Mooijaart": "Ballenjongen Lou de Rooij",
+                    "Lotte Hoek": "Bo Kleijn",
+                    "Liza van Rijn": "Meike Kuipers",
+                    "Laura Flesch": "Josephine Vermeulen",
+                    "Daina Verboekend": "Benthe van Berkel",
+                    "Fenne Peters": "Floor Willemsen",
+                    "Lars Nieuwenhuis": "Coach Alex de Bruijn"
+                },
+                "band": {
+                    "Loeke Faber": ["Gitaar", "Xylofoon"],
+                    "Merel van der Meer": ["Viool", "Vocals"],
+                    "Sylvester de Vries": "Basgitaar",
+                    "Noy Sookiasion Mamoore": "Piano",
+                    "Kay van den Berg": "Gitaar",
+                    "Amelle Noordewier": "Saxofoon",
+                    "Luuk Grooten": "Drums"
+                }
+            }
+
         }
 
     ]

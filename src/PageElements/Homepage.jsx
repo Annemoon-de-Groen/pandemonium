@@ -47,16 +47,16 @@ function Homepage(){
         </div>
         <div id='komende_voorstelling'>
             <div id='komende_voorstelling_tekst'>
-                <h3>Aankomende voorstellingen</h3>
+                <h3>Afgelopen voorstelling</h3>
                 <h4>Doorgespeeld</h4>
                 <p>Na een dramatisch verloren wedstrijd worden de meiden van SC Spaubeek opgesloten in de kleedkamer. Iemand heeft de tactiek doorgespeeld, maar wie? Wat begint met een simpel verhoor, ontaardt in een chaos van verdachtmakingen, onderhuidse spanningen en onthullingen die verder gaan dan voetbal. “Doorgespeeld” is een komische voorstelling over vriendschap, verraad en verliezen (dik verliezen...) </p>
                 {
-                    isDisabled ?
-                   <p className='koop_kaartje_tekst'>Kaartjes binnenkort beschikbaar</p>:
-                <a href='https://www.ticketkantoor.nl/shop/doorgespeeld' target='_blank'>
-                   <button disabled={false} id='koop_kaartje_button' className='button'><span>Koop kaartje</span></button> 
+                //     isDisabled ?
+                //    <p className='koop_kaartje_tekst'>Kaartjes binnenkort beschikbaar</p>:
+                // <a href='https://www.ticketkantoor.nl/shop/doorgespeeld' target='_blank'>
+                //    <button disabled={false} id='koop_kaartje_button' className='button'><span>Koop kaartje</span></button> 
 
-                </a>
+                // </a>
 
                 }
             </div>
