@@ -30,7 +30,7 @@ function Footer(){
                     <a href="mailto:theaterpandemonium@gmail.com">theaterpandemonium@gmail.com</a>
                     </p>
                 </div>
-                
+                <div class="smiley_in_bottom_right">(-:</div>
             </div>
         </footer>
     )

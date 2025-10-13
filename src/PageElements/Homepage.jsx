@@ -12,7 +12,7 @@ function Homepage(){
     useEffect(() => {
         window.scrollTo(0, 0)
         }, [])
-    const [imgClass, setImgClass] = useState(5)
+    const [imgClass, setImgClass] = useState(3)
     function plusSlides(direction){
         if (imgClass <= 1 && direction === -1) {
             setImgClass(backgroundCount) 
@@ -69,12 +69,12 @@ function Homepage(){
                 </div>
                 <div className='information_info'>
                     <div>
-                        <p>Zaterdag 21 juni</p>
-                        <p>19:30</p>
+                        <p>Onbekend</p>
+                        <p></p>
                     </div>
                     <div>
-                        <p>Zondag 22 juni</p>
-                        <p>19:30</p>
+                        <p></p>
+                        <p></p>
                     </div>
                 </div>
 

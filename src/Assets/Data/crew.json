@@ -183,7 +183,7 @@
             "id": 16,
             "first_name": "October",
             "last_name": "Sieswerda",
-            "pronouns": "hij/hem",
+            "pronouns": "hij/die",
             "category": "crew",
             "bio" : "",
             "actief": true,
@@ -272,7 +272,7 @@
             "pronouns": "zij/haar",
             "category": "cast",
             "bio" : "",
-            "actief": true,
+            "actief": false,
             "functie": [
                 "acteur"
             ]
@@ -318,7 +318,7 @@
             "pronouns": "zij/haar",
             "category": "band",
             "bio" : "",
-            "actief": true,
+            "actief": false,
             "functie": [
                 "saxofoon"
             ]
