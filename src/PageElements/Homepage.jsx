@@ -2,7 +2,7 @@ import '../Stylesheets/Homepage.css'
 import image from '../Assets/Images/frontImageSmall.jpg'
 import poster from '../Assets/Images/Poster_doorgespeeld.jpeg'
 import { useEffect, useState } from 'react'
-const backgroundCount = 3
+const backgroundCount = 7
 
 //TODO::: Voeg URL toe naar externe ticketpagina wanneer isDisabled op false wordt gezet
 const isDisabled = false;
@@ -12,7 +12,7 @@ function Homepage(){
     useEffect(() => {
         window.scrollTo(0, 0)
         }, [])
-    const [imgClass, setImgClass] = useState(3)
+    const [imgClass, setImgClass] = useState(1)
     function plusSlides(direction){
         if (imgClass <= 1 && direction === -1) {
             setImgClass(backgroundCount) 

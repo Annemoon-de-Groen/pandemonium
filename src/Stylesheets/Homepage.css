@@ -324,6 +324,10 @@ background-color: #D89C7B;
     color: #DB9C7B;
 }
 
+/* Dit is echt het toppunt van programmeren ik weet zeker dat het niet beter kan
+TODO:: Fix
+*/
+
 .front_image_1 {
     background-image:  url("../../src/Assets/Images/Front/1.JPG");
 }
@@ -337,14 +341,23 @@ background-color: #D89C7B;
     background-position: 0 0 ;
 }
 
-/* .front_image_4 {
+.front_image_4 {
     background-image:  url("../../src/Assets/Images/Front/4.JPG");
     background-position: 0 0;
 }
 .front_image_5 {
     background-image:  url("../../src/Assets/Images/Front/5.JPG");
     background-position: 0 0;
-} */
+}
+
+.front_image_6 {
+    background-image:  url("../../src/Assets/Images/Front/6.JPG");
+    background-position: 0 0;
+}
+.front_image_7 {
+    background-image:  url("../../src/Assets/Images/Front/7.JPG");
+    background-position: 0 0;
+}
 
 /* Next & previous buttons */
 .prev,
