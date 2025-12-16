@@ -337,14 +337,14 @@ background-color: #D89C7B;
     background-position: 0 0 ;
 }
 
-.front_image_4 {
+/* .front_image_4 {
     background-image:  url("../../src/Assets/Images/Front/4.JPG");
     background-position: 0 0;
 }
 .front_image_5 {
     background-image:  url("../../src/Assets/Images/Front/5.JPG");
     background-position: 0 0;
-}
+} */
 
 /* Next & previous buttons */
 .prev,

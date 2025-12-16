@@ -2,7 +2,7 @@ import '../Stylesheets/Homepage.css'
 import image from '../Assets/Images/frontImageSmall.jpg'
 import poster from '../Assets/Images/Poster_doorgespeeld.jpeg'
 import { useEffect, useState } from 'react'
-const backgroundCount = 5
+const backgroundCount = 3
 
 //TODO::: Voeg URL toe naar externe ticketpagina wanneer isDisabled op false wordt gezet
 const isDisabled = false;
@@ -47,20 +47,22 @@ function Homepage(){
         </div>
         <div id='komende_voorstelling'>
             <div id='komende_voorstelling_tekst'>
-                <h3>Afgelopen voorstelling</h3>
-                <h4>Doorgespeeld</h4>
-                <p>Na een dramatisch verloren wedstrijd worden de meiden van SC Spaubeek opgesloten in de kleedkamer. Iemand heeft de tactiek doorgespeeld, maar wie? Wat begint met een simpel verhoor, ontaardt in een chaos van verdachtmakingen, onderhuidse spanningen en onthullingen die verder gaan dan voetbal. “Doorgespeeld” is een komische voorstelling over vriendschap, verraad en verliezen (dik verliezen...) </p>
+                <h3>Komende voorstelling</h3>
+                <h4>De rode draad</h4>
+                <p>Geblesseerde ballerina’s, bruidswinkels, airfryers, dode katten en…(verassend veel) kinderen. De rode draad is een muziektheatervoorstelling bestaande uit losse taferelen die niks met elkaar te maken hebben. Of nou…
+Kom erachter hoe je in touch blijft met je lichaam en waarom mensen nou eigenlijk zingen. Mogelijk vind je zelfs nog een rode draad...
+Welkom bij de revue! </p>
                 {
-                //     isDisabled ?
-                //    <p className='koop_kaartje_tekst'>Kaartjes binnenkort beschikbaar</p>:
-                // <a href='https://www.ticketkantoor.nl/shop/doorgespeeld' target='_blank'>
-                //    <button disabled={false} id='koop_kaartje_button' className='button'><span>Koop kaartje</span></button> 
+                    isDisabled ?
+                   <p className='koop_kaartje_tekst'>Kaartjes binnenkort beschikbaar</p>:
+                <a href='https://www.ticketkantoor.nl/shop/derodedraad' target='_blank'>
+                   <button disabled={false} id='koop_kaartje_button' className='button'><span>Koop kaartjes</span></button> 
 
-                // </a>
+                </a>
 
                 }
             </div>
-            <img id='poster' src={poster} alt="Poster van doorgespeeld"></img>
+            {/* <img id='poster' src={poster} alt="Poster van doorgespeeld"></img> */}
         </div>
         <div id='information'>
             <div className='information_block'>
@@ -69,12 +71,12 @@ function Homepage(){
                 </div>
                 <div className='information_info'>
                     <div>
-                        <p>Onbekend</p>
-                        <p></p>
+                        <p>Zaterdag 10 januari</p>
+                        <p>19:30</p>
                     </div>
                     <div>
-                        <p></p>
-                        <p></p>
+                        <p>Zondag 11 januari</p>
+                        <p>19:30</p>
                     </div>
                 </div>
 
