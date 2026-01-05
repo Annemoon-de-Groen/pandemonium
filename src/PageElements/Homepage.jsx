@@ -1,6 +1,6 @@
 import '../Stylesheets/Homepage.css'
 import image from '../Assets/Images/frontImageSmall.jpg'
-import poster from '../Assets/Images/Poster_doorgespeeld.jpeg'
+import poster from '../Assets/Images/Poster_de_rode_draad.jpg'
 import { useEffect, useState } from 'react'
 const backgroundCount = 7
 
@@ -62,7 +62,7 @@ Welkom bij de revue! </p>
 
                 }
             </div>
-            {/* <img id='poster' src={poster} alt="Poster van doorgespeeld"></img> */}
+            <img id='poster' src={poster} alt="Poster van de rode draad"></img>
         </div>
         <div id='information'>
             <div className='information_block'>
